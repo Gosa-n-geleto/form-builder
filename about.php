@@ -1,7 +1,7 @@
 <?php
 /*
-  Developed by Muhafiz Ahmed
-  WhatsApp: https://wa.me/+251953115473 (For Custom Projects)
+  Developed by Gosa Negeso
+  WhatsApp: https://wa.me/+251016028154(For Custom Projects)
 */
 require_once 'config.php';
 
@@ -30,7 +30,7 @@ $branding = getSiteBranding();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="mobile-web-app-capable" content="yes">
-    <title>About · <?php echo htmlspecialchars($branding['site_name']); ?></title>
+    <title>About 隆陇 <?php echo htmlspecialchars($branding['site_name']); ?></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="styles.css?v=7.0">
     <?php echo generateUserThemeCSS($user_id); ?>
@@ -530,7 +530,7 @@ $branding = getSiteBranding();
                     </div>
                     <div class="about-title">
                         <h1><?php echo htmlspecialchars($branding['site_name']); ?></h1>
-                        <p class="about-dev">Developed by <strong>Muhafiz Ahmed</strong> · <span style="color:var(--text-muted);">Muhammed Computer Technology</span></p>
+                        <p class="about-dev">Developed by <strong>Muhafiz Ahmed</strong> 隆陇 <span style="color:var(--text-muted);">Muhammed Computer Technology</span></p>
                     </div>
                 </div>
 
@@ -954,7 +954,7 @@ $branding = getSiteBranding();
         // Remove initial hidden class
         document.body.classList.remove('initially-hidden');
 
-        console.log('🚀 About page loaded successfully');
+        console.log('聲0聥4 About page loaded successfully');
     });
     </script>
 </body>
