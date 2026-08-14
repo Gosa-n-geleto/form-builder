@@ -1,0 +1,673 @@
+[24-Jul-2026 16:59:22 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 16:59:22 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 16:59:22 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 16:59:22 UTC] Database connection: OK
+[24-Jul-2026 16:59:22 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 16:59:29 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 16:59:29 UTC] REQUEST_METHOD: POST
+[24-Jul-2026 16:59:29 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 16:59:29 UTC] Database connection: OK
+[24-Jul-2026 16:59:29 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 16:59:29 UTC] === FORM SUBMISSION START ===
+[24-Jul-2026 16:59:29 UTC] POST keys: Array
+(
+    [0] => website_url_hp
+    [1] => csrf_token
+    [2] => full_name
+    [3] => gender
+    [4] => age
+    [5] => city_region
+    [6] => phone_number
+    [7] => email_address
+    [8] => approximately
+    [9] => how_would_you_like_to_contribute
+    [10] => submit_public_form
+)
+
+[24-Jul-2026 16:59:29 UTC] === PUBLIC FORM ERROR ===
+[24-Jul-2026 16:59:29 UTC] File: /home/askusecu/forms.askuset.org/public_form.php
+[24-Jul-2026 16:59:29 UTC] Line: 497
+[24-Jul-2026 16:59:29 UTC] Message: Can't create more than max_prepared_stmt_count statements (current value: 16382)
+[24-Jul-2026 16:59:29 UTC] Trace: #0 /home/askusecu/forms.askuset.org/public_form.php(497): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+[24-Jul-2026 17:01:26 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 17:01:26 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 17:01:26 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 17:01:26 UTC] Database connection: OK
+[24-Jul-2026 17:01:26 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 17:07:04 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 17:07:04 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 17:07:04 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 17:07:04 UTC] Database connection: OK
+[24-Jul-2026 17:07:04 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 17:07:10 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 17:07:10 UTC] REQUEST_METHOD: POST
+[24-Jul-2026 17:07:10 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 17:07:10 UTC] Database connection: OK
+[24-Jul-2026 17:07:10 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 17:07:10 UTC] === FORM SUBMISSION START ===
+[24-Jul-2026 17:07:10 UTC] POST keys: Array
+(
+    [0] => website_url_hp
+    [1] => csrf_token
+    [2] => full_name
+    [3] => gender
+    [4] => age
+    [5] => city_region
+    [6] => phone_number
+    [7] => email_address
+    [8] => approximately
+    [9] => how_would_you_like_to_contribute
+    [10] => submit_public_form
+)
+
+[24-Jul-2026 17:07:10 UTC] Record inserted with ID: 36
+[24-Jul-2026 17:07:10 UTC] Submission successful - Record ID: 36
+[24-Jul-2026 18:42:18 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:42:18 UTC] REQUEST_METHOD: POST
+[24-Jul-2026 18:42:18 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:42:18 UTC] Database connection: OK
+[24-Jul-2026 18:42:18 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:42:18 UTC] === FORM SUBMISSION START ===
+[24-Jul-2026 18:42:18 UTC] POST keys: Array
+(
+    [0] => website_url_hp
+    [1] => csrf_token
+    [2] => full_name
+    [3] => gender
+    [4] => age
+    [5] => city_region
+    [6] => phone_number
+    [7] => email_address
+    [8] => approximately
+    [9] => how_would_you_like_to_contribute
+    [10] => submit_public_form
+)
+
+[24-Jul-2026 18:42:18 UTC] CSRF validation failed
+[24-Jul-2026 18:42:41 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:42:41 UTC] REQUEST_METHOD: POST
+[24-Jul-2026 18:42:41 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:42:41 UTC] Database connection: OK
+[24-Jul-2026 18:42:41 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:42:41 UTC] === FORM SUBMISSION START ===
+[24-Jul-2026 18:42:41 UTC] POST keys: Array
+(
+    [0] => website_url_hp
+    [1] => csrf_token
+    [2] => full_name
+    [3] => gender
+    [4] => age
+    [5] => city_region
+    [6] => phone_number
+    [7] => email_address
+    [8] => approximately
+    [9] => how_would_you_like_to_contribute
+    [10] => submit_public_form
+)
+
+[24-Jul-2026 18:42:41 UTC] CSRF validation failed
+[24-Jul-2026 18:42:47 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:42:47 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 18:42:47 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:42:47 UTC] Database connection: OK
+[24-Jul-2026 18:42:47 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:42:51 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:42:51 UTC] REQUEST_METHOD: POST
+[24-Jul-2026 18:42:51 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:42:51 UTC] Database connection: OK
+[24-Jul-2026 18:42:51 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:42:51 UTC] === FORM SUBMISSION START ===
+[24-Jul-2026 18:42:51 UTC] POST keys: Array
+(
+    [0] => website_url_hp
+    [1] => csrf_token
+    [2] => full_name
+    [3] => gender
+    [4] => age
+    [5] => city_region
+    [6] => phone_number
+    [7] => email_address
+    [8] => approximately
+    [9] => how_would_you_like_to_contribute
+    [10] => submit_public_form
+)
+
+[24-Jul-2026 18:42:51 UTC] CSRF validation failed
+[24-Jul-2026 18:45:06 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:45:06 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 18:45:06 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:45:06 UTC] Database connection: OK
+[24-Jul-2026 18:45:06 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:45:09 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:45:09 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 18:45:09 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:45:09 UTC] Database connection: OK
+[24-Jul-2026 18:45:09 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:45:11 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:45:11 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 18:45:11 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:45:11 UTC] Database connection: OK
+[24-Jul-2026 18:45:11 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:45:16 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:45:16 UTC] REQUEST_METHOD: POST
+[24-Jul-2026 18:45:16 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:45:16 UTC] Database connection: OK
+[24-Jul-2026 18:45:16 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:45:16 UTC] === FORM SUBMISSION START ===
+[24-Jul-2026 18:45:16 UTC] POST keys: Array
+(
+    [0] => website_url_hp
+    [1] => csrf_token
+    [2] => full_name
+    [3] => gender
+    [4] => age
+    [5] => city_region
+    [6] => phone_number
+    [7] => email_address
+    [8] => approximately
+    [9] => how_would_you_like_to_contribute
+    [10] => submit_public_form
+)
+
+[24-Jul-2026 18:45:16 UTC] CSRF validation failed
+[24-Jul-2026 18:46:04 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:46:04 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 18:46:04 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:46:04 UTC] Database connection: OK
+[24-Jul-2026 18:46:04 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:46:08 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:46:08 UTC] REQUEST_METHOD: POST
+[24-Jul-2026 18:46:08 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:46:08 UTC] Database connection: OK
+[24-Jul-2026 18:46:08 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:46:08 UTC] === FORM SUBMISSION START ===
+[24-Jul-2026 18:46:08 UTC] POST keys: Array
+(
+    [0] => website_url_hp
+    [1] => csrf_token
+    [2] => full_name
+    [3] => gender
+    [4] => age
+    [5] => city_region
+    [6] => phone_number
+    [7] => email_address
+    [8] => approximately
+    [9] => how_would_you_like_to_contribute
+    [10] => submit_public_form
+)
+
+[24-Jul-2026 18:46:08 UTC] CSRF validation failed - token mismatch
+[24-Jul-2026 18:46:08 UTC] Session token: 9ff4daf970533e6a163ddfca255fc5b081bc4113a4917c07ae25daf12a02e117
+[24-Jul-2026 18:46:08 UTC] Posted token: a280eb7e2847dee46c2b4287260dc1110eb65d1662936dbe576ce0f501cb159e
+[24-Jul-2026 18:46:13 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:46:13 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 18:46:13 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:46:13 UTC] Database connection: OK
+[24-Jul-2026 18:46:13 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:46:15 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:46:15 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 18:46:15 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:46:15 UTC] Database connection: OK
+[24-Jul-2026 18:46:15 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:46:15 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:46:15 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 18:46:15 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:46:15 UTC] Database connection: OK
+[24-Jul-2026 18:46:15 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:46:18 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:46:18 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 18:46:18 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:46:18 UTC] Database connection: OK
+[24-Jul-2026 18:46:18 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:46:21 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:46:21 UTC] REQUEST_METHOD: POST
+[24-Jul-2026 18:46:21 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:46:21 UTC] Database connection: OK
+[24-Jul-2026 18:46:21 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:46:21 UTC] === FORM SUBMISSION START ===
+[24-Jul-2026 18:46:21 UTC] POST keys: Array
+(
+    [0] => website_url_hp
+    [1] => csrf_token
+    [2] => full_name
+    [3] => gender
+    [4] => age
+    [5] => city_region
+    [6] => phone_number
+    [7] => email_address
+    [8] => approximately
+    [9] => how_would_you_like_to_contribute
+    [10] => submit_public_form
+)
+
+[24-Jul-2026 18:46:21 UTC] CSRF validation failed - token mismatch
+[24-Jul-2026 18:46:21 UTC] Session token: 9ff4daf970533e6a163ddfca255fc5b081bc4113a4917c07ae25daf12a02e117
+[24-Jul-2026 18:46:21 UTC] Posted token: a280eb7e2847dee46c2b4287260dc1110eb65d1662936dbe576ce0f501cb159e
+[24-Jul-2026 18:46:30 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:46:30 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 18:46:30 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:46:30 UTC] Database connection: OK
+[24-Jul-2026 18:46:30 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:46:36 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:46:36 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 18:46:36 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:46:36 UTC] Database connection: OK
+[24-Jul-2026 18:46:36 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:46:42 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:46:42 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 18:46:42 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:46:42 UTC] Database connection: OK
+[24-Jul-2026 18:46:42 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:46:45 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:46:45 UTC] REQUEST_METHOD: POST
+[24-Jul-2026 18:46:45 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:46:45 UTC] Database connection: OK
+[24-Jul-2026 18:46:45 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:46:45 UTC] === FORM SUBMISSION START ===
+[24-Jul-2026 18:46:45 UTC] POST keys: Array
+(
+    [0] => website_url_hp
+    [1] => csrf_token
+    [2] => full_name
+    [3] => gender
+    [4] => age
+    [5] => city_region
+    [6] => phone_number
+    [7] => email_address
+    [8] => approximately
+    [9] => how_would_you_like_to_contribute
+    [10] => submit_public_form
+)
+
+[24-Jul-2026 18:46:45 UTC] CSRF validation failed - token mismatch
+[24-Jul-2026 18:46:45 UTC] Session token: 9ff4daf970533e6a163ddfca255fc5b081bc4113a4917c07ae25daf12a02e117
+[24-Jul-2026 18:46:45 UTC] Posted token: a280eb7e2847dee46c2b4287260dc1110eb65d1662936dbe576ce0f501cb159e
+[24-Jul-2026 18:48:36 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:48:36 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 18:48:36 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:48:36 UTC] Database connection: OK
+[24-Jul-2026 18:48:36 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:48:40 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:48:40 UTC] REQUEST_METHOD: POST
+[24-Jul-2026 18:48:40 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:48:40 UTC] Database connection: OK
+[24-Jul-2026 18:48:40 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:48:40 UTC] === FORM SUBMISSION START ===
+[24-Jul-2026 18:48:40 UTC] POST keys: Array
+(
+    [0] => website_url_hp
+    [1] => csrf_token
+    [2] => full_name
+    [3] => gender
+    [4] => age
+    [5] => city_region
+    [6] => phone_number
+    [7] => email_address
+    [8] => approximately
+    [9] => how_would_you_like_to_contribute
+    [10] => submit_public_form
+)
+
+[24-Jul-2026 18:48:40 UTC] CSRF validation failed
+[24-Jul-2026 18:51:48 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 18:51:48 UTC] REQUEST_METHOD: POST
+[24-Jul-2026 18:51:48 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 18:51:48 UTC] Database connection: OK
+[24-Jul-2026 18:51:48 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 18:51:48 UTC] === FORM SUBMISSION START ===
+[24-Jul-2026 18:51:48 UTC] POST keys: Array
+(
+    [0] => website_url_hp
+    [1] => csrf_token
+    [2] => full_name
+    [3] => gender
+    [4] => age
+    [5] => city_region
+    [6] => phone_number
+    [7] => email_address
+    [8] => approximately
+    [9] => how_would_you_like_to_contribute
+    [10] => submit_public_form
+)
+
+[24-Jul-2026 18:51:48 UTC] CSRF validation failed
+[24-Jul-2026 19:00:27 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 19:00:27 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 19:00:27 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 19:00:27 UTC] Database connection: OK
+[24-Jul-2026 19:00:27 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 19:00:31 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 19:00:31 UTC] REQUEST_METHOD: POST
+[24-Jul-2026 19:00:31 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 19:00:31 UTC] Database connection: OK
+[24-Jul-2026 19:00:31 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 19:00:31 UTC] === FORM SUBMISSION START ===
+[24-Jul-2026 19:00:31 UTC] POST keys: Array
+(
+    [0] => website_url_hp
+    [1] => csrf_token
+    [2] => full_name
+    [3] => gender
+    [4] => age
+    [5] => city_region
+    [6] => phone_number
+    [7] => email_address
+    [8] => approximately
+    [9] => how_would_you_like_to_contribute
+    [10] => submit_public_form
+)
+
+[24-Jul-2026 19:00:31 UTC] Session token: 7b95e412a24051816644b4327833a6680bae3ba2c7a488b4628ccaa2967f77ac
+[24-Jul-2026 19:00:31 UTC] Posted token: a280eb7e2847dee46c2b4287260dc1110eb65d1662936dbe576ce0f501cb159e
+[24-Jul-2026 19:00:31 UTC] CSRF validation failed - token mismatch
+[24-Jul-2026 19:00:31 UTC] Session token: 7b95e412a24051816644b4327833a6680bae3ba2c7a488b4628ccaa2967f77ac
+[24-Jul-2026 19:00:31 UTC] Posted token: a280eb7e2847dee46c2b4287260dc1110eb65d1662936dbe576ce0f501cb159e
+[24-Jul-2026 19:00:37 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 19:00:37 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 19:00:37 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 19:00:37 UTC] Database connection: OK
+[24-Jul-2026 19:00:37 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 19:00:38 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 19:00:38 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 19:00:38 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 19:00:38 UTC] Database connection: OK
+[24-Jul-2026 19:00:38 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 19:00:38 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 19:00:38 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 19:00:38 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 19:00:38 UTC] Database connection: OK
+[24-Jul-2026 19:00:38 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 19:00:40 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 19:00:40 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 19:00:40 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 19:00:40 UTC] Database connection: OK
+[24-Jul-2026 19:00:40 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 19:00:40 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 19:00:40 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 19:00:40 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 19:00:40 UTC] Database connection: OK
+[24-Jul-2026 19:00:40 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 19:00:41 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 19:00:41 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 19:00:41 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 19:00:41 UTC] Database connection: OK
+[24-Jul-2026 19:00:41 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 19:00:43 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 19:00:43 UTC] REQUEST_METHOD: POST
+[24-Jul-2026 19:00:43 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 19:00:43 UTC] Database connection: OK
+[24-Jul-2026 19:00:43 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 19:00:43 UTC] === FORM SUBMISSION START ===
+[24-Jul-2026 19:00:43 UTC] POST keys: Array
+(
+    [0] => website_url_hp
+    [1] => csrf_token
+    [2] => full_name
+    [3] => gender
+    [4] => age
+    [5] => city_region
+    [6] => phone_number
+    [7] => email_address
+    [8] => approximately
+    [9] => how_would_you_like_to_contribute
+    [10] => submit_public_form
+)
+
+[24-Jul-2026 19:00:43 UTC] Session token: 7b95e412a24051816644b4327833a6680bae3ba2c7a488b4628ccaa2967f77ac
+[24-Jul-2026 19:00:43 UTC] Posted token: a280eb7e2847dee46c2b4287260dc1110eb65d1662936dbe576ce0f501cb159e
+[24-Jul-2026 19:00:43 UTC] CSRF validation failed - token mismatch
+[24-Jul-2026 19:00:43 UTC] Session token: 7b95e412a24051816644b4327833a6680bae3ba2c7a488b4628ccaa2967f77ac
+[24-Jul-2026 19:00:43 UTC] Posted token: a280eb7e2847dee46c2b4287260dc1110eb65d1662936dbe576ce0f501cb159e
+[24-Jul-2026 19:05:51 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 19:05:51 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 19:05:51 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 19:05:51 UTC] Database connection: OK
+[24-Jul-2026 19:05:51 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 19:05:54 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 19:05:54 UTC] REQUEST_METHOD: POST
+[24-Jul-2026 19:05:54 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 19:05:54 UTC] Database connection: OK
+[24-Jul-2026 19:05:54 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 19:05:54 UTC] === FORM SUBMISSION START ===
+[24-Jul-2026 19:05:54 UTC] POST keys: Array
+(
+    [0] => website_url_hp
+    [1] => csrf_token
+    [2] => full_name
+    [3] => gender
+    [4] => age
+    [5] => city_region
+    [6] => phone_number
+    [7] => email_address
+    [8] => approximately
+    [9] => how_would_you_like_to_contribute
+    [10] => submit_public_form
+)
+
+[24-Jul-2026 19:05:54 UTC] Session token: 7b95e412a24051816644b4327833a6680bae3ba2c7a488b4628ccaa2967f77ac
+[24-Jul-2026 19:05:54 UTC] Posted token: a280eb7e2847dee46c2b4287260dc1110eb65d1662936dbe576ce0f501cb159e
+[24-Jul-2026 19:05:54 UTC] CSRF validation failed - token mismatch
+[24-Jul-2026 19:05:54 UTC] Session token: 7b95e412a24051816644b4327833a6680bae3ba2c7a488b4628ccaa2967f77ac
+[24-Jul-2026 19:05:54 UTC] Posted token: a280eb7e2847dee46c2b4287260dc1110eb65d1662936dbe576ce0f501cb159e
+[24-Jul-2026 19:06:02 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 19:06:02 UTC] REQUEST_METHOD: GET
+[24-Jul-2026 19:06:02 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 19:06:02 UTC] Database connection: OK
+[24-Jul-2026 19:06:02 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 19:06:05 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 19:06:05 UTC] REQUEST_METHOD: POST
+[24-Jul-2026 19:06:05 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 19:06:05 UTC] Database connection: OK
+[24-Jul-2026 19:06:05 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 19:06:05 UTC] === FORM SUBMISSION START ===
+[24-Jul-2026 19:06:05 UTC] POST keys: Array
+(
+    [0] => website_url_hp
+    [1] => csrf_token
+    [2] => full_name
+    [3] => gender
+    [4] => age
+    [5] => city_region
+    [6] => phone_number
+    [7] => email_address
+    [8] => approximately
+    [9] => how_would_you_like_to_contribute
+    [10] => submit_public_form
+)
+
+[24-Jul-2026 19:06:05 UTC] Session token: 7b95e412a24051816644b4327833a6680bae3ba2c7a488b4628ccaa2967f77ac
+[24-Jul-2026 19:06:05 UTC] Posted token: a280eb7e2847dee46c2b4287260dc1110eb65d1662936dbe576ce0f501cb159e
+[24-Jul-2026 19:06:05 UTC] CSRF validation failed - token mismatch
+[24-Jul-2026 19:06:05 UTC] Session token: 7b95e412a24051816644b4327833a6680bae3ba2c7a488b4628ccaa2967f77ac
+[24-Jul-2026 19:06:05 UTC] Posted token: a280eb7e2847dee46c2b4287260dc1110eb65d1662936dbe576ce0f501cb159e
+[24-Jul-2026 19:06:11 UTC] === PUBLIC FORM REQUEST START ===
+[24-Jul-2026 19:06:11 UTC] REQUEST_METHOD: POST
+[24-Jul-2026 19:06:11 UTC] GET params: Array
+(
+    [token] => 78265c1b61eddfcf9a932b044a5caffeab1d6ead4734176a73ec984a0dca4e40
+)
+
+[24-Jul-2026 19:06:11 UTC] Database connection: OK
+[24-Jul-2026 19:06:11 UTC] Form found: Social Media Volunteer Registration (ID: 4)
+[24-Jul-2026 19:06:11 UTC] === FORM SUBMISSION START ===
+[24-Jul-2026 19:06:11 UTC] POST keys: Array
+(
+    [0] => website_url_hp
+    [1] => csrf_token
+    [2] => full_name
+    [3] => gender
+    [4] => age
+    [5] => city_region
+    [6] => phone_number
+    [7] => email_address
+    [8] => approximately
+    [9] => how_would_you_like_to_contribute
+    [10] => submit_public_form
+)
+
+[24-Jul-2026 19:06:11 UTC] Session token: 7b95e412a24051816644b4327833a6680bae3ba2c7a488b4628ccaa2967f77ac
+[24-Jul-2026 19:06:11 UTC] Posted token: a280eb7e2847dee46c2b4287260dc1110eb65d1662936dbe576ce0f501cb159e
+[24-Jul-2026 19:06:11 UTC] CSRF validation failed - token mismatch
+[24-Jul-2026 19:06:11 UTC] Session token: 7b95e412a24051816644b4327833a6680bae3ba2c7a488b4628ccaa2967f77ac
+[24-Jul-2026 19:06:11 UTC] Posted token: a280eb7e2847dee46c2b4287260dc1110eb65d1662936dbe576ce0f501cb159e

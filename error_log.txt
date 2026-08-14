@@ -1,0 +1,765 @@
+[26-Jul-2026 04:33:26 UTC] CSRF Validation Failed: Empty token
+[26-Jul-2026 04:33:32 UTC] CSRF Validation Failed: Empty token
+2026-07-26 04:36:14 - INFO: === public_form.php started ===
+2026-07-26 04:36:14 - INFO: CSRF token generated: d05817b4b7902aa3c659...
+2026-07-26 04:36:32 - INFO: === public_form.php started ===
+2026-07-26 04:36:32 - INFO: CSRF token generated: d05817b4b7902aa3c659...
+2026-07-26 04:37:47 - INFO: === public_form.php started ===
+2026-07-26 04:37:47 - INFO: CSRF token generated: d05817b4b7902aa3c659...
+2026-07-26 04:37:59 - INFO: === public_form.php started ===
+2026-07-26 04:37:59 - INFO: CSRF token generated: d05817b4b7902aa3c659...
+2026-07-26 04:37:59 - INFO: === FORM SUBMISSION STARTED ===
+2026-07-26 04:37:59 - INFO: POST data - DATA: Array
+(
+    [website_url_hp] => 
+    [full_name] => Muhafiz Ahmed
+    [gender] => Male
+    [age] => 25
+    [city_region] => Addis Ababa
+    [phone_number] => 0953115473
+    [email_address] => muhafizahmede@gmail.com
+    [how_would_you_like_to_contribute] => Array
+        (
+            [0] => Content Creation
+        )
+
+    [approximately] => 3–5 hours
+    [submit_public_form] => 1
+    [csrf_token] => d05817b4b7902aa3c6596aad89541e88325fffb986ada5d799eaea8e2a23de9f
+)
+
+2026-07-26 04:37:59 - INFO: FILES data - DATA: Array
+(
+)
+
+2026-07-26 04:37:59 - INFO: CSRF verified successfully
+2026-07-26 04:37:59 - INFO: CSRF token regenerated after submission: 8ae46a0da8bdae4694cf...
+2026-07-26 04:37:59 - INFO: Form ID: 4, IP: 196.188.161.163
+2026-07-26 04:37:59 - INFO: Rate limit check passed
+2026-07-26 04:37:59 - INFO: Scheduling check passed
+2026-07-26 04:37:59 - INFO: Expiry check passed
+2026-07-26 04:37:59 - INFO: Submission limit check passed
+2026-07-26 04:37:59 - INFO: One per user check passed
+2026-07-26 04:37:59 - INFO: Processing 8 fields
+2026-07-26 04:37:59 - INFO: Data collected: {"full_name":"Muhafiz Ahmed","gender":"Male","age":"25","city_region":"Addis Ababa","phone_number":"0953115473","email_address":"muhafizahmede@gmail.com","how_would_you_like_to_contribute":"Content Creation","approximately":"3\u20135 hours"}
+2026-07-26 04:37:59 - INFO: Data JSON: {"full_name":"Muhafiz Ahmed","gender":"Male","age":"25","city_region":"Addis Ababa","phone_number":"0953115473","email_address":"muhafizahmede@gmail.com","how_would_you_like_to_contribute":"Content Creation","approximately":"3\u20135 hours"}
+2026-07-26 04:37:59 - INFO: Inserting record using regular query...
+2026-07-26 04:37:59 - INFO: Insert Query: INSERT INTO crud_data (form_id, data_json, submitted_by, submitted_by_name, submitted_by_email, ip_address, is_public_submission) 
+                         VALUES (4, '{\"full_name\":\"Muhafiz Ahmed\",\"gender\":\"Male\",\"age\":\"25\",\"city_region\":\"Addis Ababa\",\"phone_number\":\"0953115473\",\"email_address\":\"muhafizahmede@gmail.com\",\"how_would_you_like_to_contribute\":\"Content Creation\",\"approximately\":\"3\\u20135 hours\"}', NULL, 'Muhafiz Ahmed', '', '196.188.161.163', 1)
+2026-07-26 04:37:59 - INFO: Record inserted with ID: 49
+2026-07-26 04:37:59 - INFO: Sending notifications...
+2026-07-26 04:37:59 - INFO: SUCCESS: {"success":true,"message":"Form submitted successfully! Reference: #49","thank_you_message":"# \ud83c\udf89 Thank You!\r\n\r\nYour registration was successful.\r\n\r\nWe'll review your application and contact you if selected.\r\n\r\n**Thank you! \u2764\ufe0f**"}
+2026-07-26 04:38:04 - INFO: === public_form.php started ===
+2026-07-26 04:38:04 - INFO: CSRF token generated: 8ae46a0da8bdae4694cf...
+[26-Jul-2026 04:55:06 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/askusecu/forms.askuset.org/config.php:78
+Stack trace:
+#0 [internal function]: {closure}()
+#1 {main}
+  thrown in /home/askusecu/forms.askuset.org/config.php on line 78
+2026-07-26 05:02:26 - INFO: === public_form.php started ===
+2026-07-26 05:02:26 - INFO: CSRF token generated: 12936f0b524787c2b71a...
+2026-07-26 05:03:03 - INFO: === public_form.php started ===
+2026-07-26 05:03:03 - INFO: CSRF token generated: 30c89ab8dde7155527ca...
+2026-07-26 05:04:05 - INFO: === public_form.php started ===
+2026-07-26 05:04:05 - INFO: CSRF token generated: 0a1250172122b0cfaa8c...
+2026-07-26 05:09:16 - INFO: === public_form.php started ===
+2026-07-26 05:09:16 - INFO: CSRF token generated: 0a1250172122b0cfaa8c...
+2026-07-26 05:09:16 - INFO: === FORM SUBMISSION STARTED ===
+2026-07-26 05:09:16 - INFO: POST data - DATA: Array
+(
+    [website_url_hp] => 
+    [i_voluntarily_agree_to_participate_in_this_survey] => Array
+        (
+            [0] => I Agree
+        )
+
+    [sex] => Male
+    [age_group] => 15–19 Years
+    [religion] => Muslim
+    [highest_education_level] => Bachelor's Degree
+    [employment_status] => Student
+    [living_arrangement] => With Family
+    [how_long_have_you_been_on_art] => More than 15 Years
+    [current_art_regimen] => First-Line Regimen
+    [do_you_routinely_undergo_viral_load_testing] => Yes
+    [current_viral_load_status] => Undetectable
+    [frequency_of_art_clinic_visits] => Every 3 Months
+    [disclosure_status] => Disclosed
+    [have_you_ever_heard_of_u_u] => Yes
+    [who_first_informed_you_about_u_u] => Healthcare Provider
+    [is_there_an_adolescent_psychosocial_support_program_at_your_health_facility] => Yes
+    [have_healthcare_providers_discussed_u_u_with_you] => No
+    [how_confident_are_healthcare_providers_when_counseling_about_u_u] => Not Confident
+    [do_healthcare_providers_discuss_u_u_during_art_visits] => Never
+    [how_clearly_do_providers_explain_u_u] => Not Clearly
+    [do_providers_encourage_you_to_ask_questions] => Yes
+    [do_you_feel_comfortable_discussing_hiv_and_u_u_with_healthcare_providers] => No
+    [what_prevents_you_from_asking_questions] => Array
+        (
+            [0] => Provider Attitude
+        )
+
+    [are_you_currently_in_a_relationship] => No
+    [partner_hiv_status] => Unknown
+    [have_you_disclosed_your_hiv_status_to_your_partner] => No
+    [do_you_still_have_concerns_about_intimacy_despite_u_u] => Sometimes
+    [have_you_received_counseling_on_sexual_and_reproductive_health_related_to_u_u] => Sometimes
+    [what_challenges_affect_your_art_adherence] => Array
+        (
+            [0] => Forgetfulness
+        )
+
+    [do_you_think_u_u_reduces_stigma_and_discrimination] => Yes
+    [have_you_experienced_stigma_because_of_your_hiv_status] => Yes
+    [if_yes_where_did_you_experience_stigma] => Array
+        (
+            [0] => Family
+            [1] => School
+        )
+
+    [how_confident_are_you_in_explaining_u_u_to_others] => Confident
+    [what_support_would_help_you_become_more_confident_about_u_u] => Array
+        (
+            [0] => More Information from Healthcare Providers
+            [1] => Peer Support Groups
+        )
+
+    [additional_comments_or_suggestions] => Nothing 
+    [submit_public_form] => 1
+    [csrf_token] => 0a1250172122b0cfaa8cea374f06fd58d32195e638003b35b84c6f7b60d8d519
+)
+
+2026-07-26 05:09:16 - INFO: FILES data - DATA: Array
+(
+)
+
+2026-07-26 05:09:16 - INFO: CSRF verified successfully
+2026-07-26 05:09:16 - INFO: CSRF token regenerated after submission: 753fb29f1633fa2d6367...
+2026-07-26 05:09:16 - INFO: Form ID: 5, IP: 196.188.161.163
+2026-07-26 05:09:16 - INFO: Rate limit check passed
+2026-07-26 05:09:16 - INFO: Scheduling check passed
+2026-07-26 05:09:16 - INFO: Expiry check passed
+2026-07-26 05:09:16 - INFO: Submission limit check passed
+2026-07-26 05:09:16 - INFO: One per user check passed
+2026-07-26 05:09:16 - INFO: Processing 35 fields
+2026-07-26 05:09:16 - INFO: Data collected: {"i_voluntarily_agree_to_participate_in_this_survey":"I Agree","sex":"Male","age_group":"15\u201319 Years","religion":"Muslim","highest_education_level":"Bachelor's Degree","employment_status":"Student","living_arrangement":"With Family","how_long_have_you_been_on_art":"More than 15 Years","current_art_regimen":"First-Line Regimen","do_you_routinely_undergo_viral_load_testing":"Yes","current_viral_load_status":"Undetectable","frequency_of_art_clinic_visits":"Every 3 Months","disclosure_status":"Disclosed","have_you_ever_heard_of_u_u":"Yes","who_first_informed_you_about_u_u":"Healthcare Provider","is_there_an_adolescent_psychosocial_support_program_at_your_health_facility":"Yes","have_healthcare_providers_discussed_u_u_with_you":"No","how_confident_are_healthcare_providers_when_counseling_about_u_u":"Not Confident","do_healthcare_providers_discuss_u_u_during_art_visits":"Never","how_clearly_do_providers_explain_u_u":"Not Clearly","do_providers_encourage_you_to_ask_questions":"Yes","do_you_feel_comfortable_discussing_hiv_and_u_u_with_healthcare_providers":"No","what_prevents_you_from_asking_questions":"Provider Attitude","are_you_currently_in_a_relationship":"No","partner_hiv_status":"Unknown","have_you_disclosed_your_hiv_status_to_your_partner":"No","do_you_still_have_concerns_about_intimacy_despite_u_u":"Sometimes","have_you_received_counseling_on_sexual_and_reproductive_health_related_to_u_u":"Sometimes","what_challenges_affect_your_art_adherence":"Forgetfulness","do_you_think_u_u_reduces_stigma_and_discrimination":"Yes","have_you_experienced_stigma_because_of_your_hiv_status":"Yes","if_yes_where_did_you_experience_stigma":"Family,School","how_confident_are_you_in_explaining_u_u_to_others":"Confident","what_support_would_help_you_become_more_confident_about_u_u":"More Information from Healthcare Providers,Peer Support Groups","additional_comments_or_suggestions":"Nothing"}
+2026-07-26 05:09:16 - INFO: Data JSON: {"i_voluntarily_agree_to_participate_in_this_survey":"I Agree","sex":"Male","age_group":"15\u201319 Years","religion":"Muslim","highest_education_level":"Bachelor's Degree","employment_status":"Student","living_arrangement":"With Family","how_long_have_you_been_on_art":"More than 15 Years","current_art_regimen":"First-Line Regimen","do_you_routinely_undergo_viral_load_testing":"Yes","current_viral_load_status":"Undetectable","frequency_of_art_clinic_visits":"Every 3 Months","disclosure_status":"Disclosed","have_you_ever_heard_of_u_u":"Yes","who_first_informed_you_about_u_u":"Healthcare Provider","is_there_an_adolescent_psychosocial_support_program_at_your_health_facility":"Yes","have_healthcare_providers_discussed_u_u_with_you":"No","how_confident_are_healthcare_providers_when_counseling_about_u_u":"Not Confident","do_healthcare_providers_discuss_u_u_during_art_visits":"Never","how_clearly_do_providers_explain_u_u":"Not Clearly","do_providers_encourage_you_to_ask_questions":"Yes","do_you_feel_comfortable_discussing_hiv_and_u_u_with_healthcare_providers":"No","what_prevents_you_from_asking_questions":"Provider Attitude","are_you_currently_in_a_relationship":"No","partner_hiv_status":"Unknown","have_you_disclosed_your_hiv_status_to_your_partner":"No","do_you_still_have_concerns_about_intimacy_despite_u_u":"Sometimes","have_you_received_counseling_on_sexual_and_reproductive_health_related_to_u_u":"Sometimes","what_challenges_affect_your_art_adherence":"Forgetfulness","do_you_think_u_u_reduces_stigma_and_discrimination":"Yes","have_you_experienced_stigma_because_of_your_hiv_status":"Yes","if_yes_where_did_you_experience_stigma":"Family,School","how_confident_are_you_in_explaining_u_u_to_others":"Confident","what_support_would_help_you_become_more_confident_about_u_u":"More Information from Healthcare Providers,Peer Support Groups","additional_comments_or_suggestions":"Nothing"}
+2026-07-26 05:09:16 - INFO: Inserting record using regular query...
+2026-07-26 05:09:16 - INFO: Insert Query: INSERT INTO crud_data (form_id, data_json, submitted_by, submitted_by_name, submitted_by_email, ip_address, is_public_submission) 
+                         VALUES (5, '{\"i_voluntarily_agree_to_participate_in_this_survey\":\"I Agree\",\"sex\":\"Male\",\"age_group\":\"15\\u201319 Years\",\"religion\":\"Muslim\",\"highest_education_level\":\"Bachelor\'s Degree\",\"employment_status\":\"Student\",\"living_arrangement\":\"With Family\",\"how_long_have_you_been_on_art\":\"More than 15 Years\",\"current_art_regimen\":\"First-Line Regimen\",\"do_you_routinely_undergo_viral_load_testing\":\"Yes\",\"current_viral_load_status\":\"Undetectable\",\"frequency_of_art_clinic_visits\":\"Every 3 Months\",\"disclosure_status\":\"Disclosed\",\"have_you_ever_heard_of_u_u\":\"Yes\",\"who_first_informed_you_about_u_u\":\"Healthcare Provider\",\"is_there_an_adolescent_psychosocial_support_program_at_your_health_facility\":\"Yes\",\"have_healthcare_providers_discussed_u_u_with_you\":\"No\",\"how_confident_are_healthcare_providers_when_counseling_about_u_u\":\"Not Confident\",\"do_healthcare_providers_discuss_u_u_during_art_visits\":\"Never\",\"how_clearly_do_providers_explain_u_u\":\"Not Clearly\",\"do_providers_encourage_you_to_ask_questions\":\"Yes\",\"do_you_feel_comfortable_discussing_hiv_and_u_u_with_healthcare_providers\":\"No\",\"what_prevents_you_from_asking_questions\":\"Provider Attitude\",\"are_you_currently_in_a_relationship\":\"No\",\"partner_hiv_status\":\"Unknown\",\"have_you_disclosed_your_hiv_status_to_your_partner\":\"No\",\"do_you_still_have_concerns_about_intimacy_despite_u_u\":\"Sometimes\",\"have_you_received_counseling_on_sexual_and_reproductive_health_related_to_u_u\":\"Sometimes\",\"what_challenges_affect_your_art_adherence\":\"Forgetfulness\",\"do_you_think_u_u_reduces_stigma_and_discrimination\":\"Yes\",\"have_you_experienced_stigma_because_of_your_hiv_status\":\"Yes\",\"if_yes_where_did_you_experience_stigma\":\"Family,School\",\"how_confident_are_you_in_explaining_u_u_to_others\":\"Confident\",\"what_support_would_help_you_become_more_confident_about_u_u\":\"More Information from Healthcare Providers,Peer Support Groups\",\"additional_comments_or_suggestions\":\"Nothing\"}', NULL, 'Anonymous', '', '196.188.161.163', 1)
+2026-07-26 05:09:16 - INFO: Record inserted with ID: 50
+2026-07-26 05:09:16 - INFO: Sending notifications...
+2026-07-26 05:09:16 - INFO: Admin notification sent
+2026-07-26 05:09:16 - INFO: SUCCESS: {"success":true,"message":"Form submitted successfully! Reference: #50","thank_you_message":"Thank you for participating in this survey. Your responses are confidential and will only be used for research and program improvement."}
+2026-07-26 05:09:26 - INFO: === public_form.php started ===
+2026-07-26 05:09:26 - INFO: CSRF token generated: 753fb29f1633fa2d6367...
+2026-07-26 06:01:01 - INFO: === public_form.php started ===
+2026-07-26 06:01:01 - INFO: CSRF token generated: 35bf3e69f70ec8617298...
+2026-07-26 06:04:30 - INFO: === public_form.php started ===
+2026-07-26 06:04:30 - INFO: CSRF token generated: 35bf3e69f70ec8617298...
+2026-07-26 06:12:09 - INFO: === public_form.php started ===
+2026-07-26 06:12:09 - INFO: CSRF token generated: 87c6a302fd4324e127bd...
+2026-07-26 06:23:42 - INFO: === public_form.php started ===
+2026-07-26 06:23:42 - INFO: CSRF token generated: 87c6a302fd4324e127bd...
+2026-07-26 06:23:42 - INFO: === FORM SUBMISSION STARTED ===
+2026-07-26 06:23:42 - INFO: POST data - DATA: Array
+(
+    [website_url_hp] => 
+    [i_voluntarily_agree_to_participate_in_this_survey] => Array
+        (
+            [0] => I Agree
+        )
+
+    [sex] => Male
+    [age_group] => 25–29 Years
+    [religion] => Other
+    [highest_education_level] => Diploma
+    [employment_status] => Employed
+    [living_arrangement] => Alone
+    [how_long_have_you_been_on_art] => 10–15 Years
+    [current_art_regimen] => First-Line Regimen
+    [do_you_routinely_undergo_viral_load_testing] => Yes
+    [current_viral_load_status] => Undetectable
+    [frequency_of_art_clinic_visits] => Every 3 Months
+    [disclosure_status] => Disclosed
+    [have_you_ever_heard_of_u_u] => Yes
+    [who_first_informed_you_about_u_u] => Healthcare Provider
+    [is_there_an_adolescent_psychosocial_support_program_at_your_health_facility] => Yes
+    [have_healthcare_providers_discussed_u_u_with_you] => Yes
+    [how_confident_are_healthcare_providers_when_counseling_about_u_u] => Very Confident
+    [do_healthcare_providers_discuss_u_u_during_art_visits] => Sometimes
+    [how_clearly_do_providers_explain_u_u] => Somewhat Clearly
+    [do_providers_encourage_you_to_ask_questions] => Yes
+    [do_you_feel_comfortable_discussing_hiv_and_u_u_with_healthcare_providers] => Yes
+    [what_prevents_you_from_asking_questions] => Array
+        (
+            [0] => Fear
+        )
+
+    [are_you_currently_in_a_relationship] => Yes
+    [partner_hiv_status] => HIV Negative
+    [have_you_disclosed_your_hiv_status_to_your_partner] => Yes
+    [do_you_still_have_concerns_about_intimacy_despite_u_u] => Yes
+    [have_you_received_counseling_on_sexual_and_reproductive_health_related_to_u_u] => Yes
+    [what_challenges_affect_your_art_adherence] => Array
+        (
+            [0] => Forgetfulness
+        )
+
+    [do_you_think_u_u_reduces_stigma_and_discrimination] => Yes
+    [have_you_experienced_stigma_because_of_your_hiv_status] => Yes
+    [if_yes_where_did_you_experience_stigma] => Array
+        (
+            [0] => Family
+        )
+
+    [how_confident_are_you_in_explaining_u_u_to_others] => Very Confident
+    [what_support_would_help_you_become_more_confident_about_u_u] => Array
+        (
+            [0] => More Information from Healthcare Providers
+            [1] => Printed Materials
+        )
+
+    [additional_comments_or_suggestions] => Specially awernece creation touchd health care providers with Stigma pree-care 🙏
+    [submit_public_form] => 1
+    [csrf_token] => 87c6a302fd4324e127bda605557f8cd33242687cb274dea3a96065b21cde48bf
+)
+
+2026-07-26 06:23:42 - INFO: FILES data - DATA: Array
+(
+)
+
+2026-07-26 06:23:42 - INFO: CSRF verified successfully
+2026-07-26 06:23:42 - INFO: CSRF token regenerated after submission: d985aa23bec190f6ea24...
+2026-07-26 06:23:42 - INFO: Form ID: 5, IP: 196.189.145.190
+2026-07-26 06:23:42 - INFO: Rate limit check passed
+2026-07-26 06:23:42 - INFO: Scheduling check passed
+2026-07-26 06:23:42 - INFO: Expiry check passed
+2026-07-26 06:23:42 - INFO: Submission limit check passed
+2026-07-26 06:23:42 - INFO: One per user check passed
+2026-07-26 06:23:42 - INFO: Processing 35 fields
+2026-07-26 06:23:42 - INFO: Data collected: {"i_voluntarily_agree_to_participate_in_this_survey":"I Agree","sex":"Male","age_group":"25\u201329 Years","religion":"Other","highest_education_level":"Diploma","employment_status":"Employed","living_arrangement":"Alone","how_long_have_you_been_on_art":"10\u201315 Years","current_art_regimen":"First-Line Regimen","do_you_routinely_undergo_viral_load_testing":"Yes","current_viral_load_status":"Undetectable","frequency_of_art_clinic_visits":"Every 3 Months","disclosure_status":"Disclosed","have_you_ever_heard_of_u_u":"Yes","who_first_informed_you_about_u_u":"Healthcare Provider","is_there_an_adolescent_psychosocial_support_program_at_your_health_facility":"Yes","have_healthcare_providers_discussed_u_u_with_you":"Yes","how_confident_are_healthcare_providers_when_counseling_about_u_u":"Very Confident","do_healthcare_providers_discuss_u_u_during_art_visits":"Sometimes","how_clearly_do_providers_explain_u_u":"Somewhat Clearly","do_providers_encourage_you_to_ask_questions":"Yes","do_you_feel_comfortable_discussing_hiv_and_u_u_with_healthcare_providers":"Yes","what_prevents_you_from_asking_questions":"Fear","are_you_currently_in_a_relationship":"Yes","partner_hiv_status":"HIV Negative","have_you_disclosed_your_hiv_status_to_your_partner":"Yes","do_you_still_have_concerns_about_intimacy_despite_u_u":"Yes","have_you_received_counseling_on_sexual_and_reproductive_health_related_to_u_u":"Yes","what_challenges_affect_your_art_adherence":"Forgetfulness","do_you_think_u_u_reduces_stigma_and_discrimination":"Yes","have_you_experienced_stigma_because_of_your_hiv_status":"Yes","if_yes_where_did_you_experience_stigma":"Family","how_confident_are_you_in_explaining_u_u_to_others":"Very Confident","what_support_would_help_you_become_more_confident_about_u_u":"More Information from Healthcare Providers,Printed Materials","additional_comments_or_suggestions":"Specially awernece creation touchd health care providers with Stigma pree-care \ud83d\ude4f"}
+2026-07-26 06:23:42 - INFO: Data JSON: {"i_voluntarily_agree_to_participate_in_this_survey":"I Agree","sex":"Male","age_group":"25\u201329 Years","religion":"Other","highest_education_level":"Diploma","employment_status":"Employed","living_arrangement":"Alone","how_long_have_you_been_on_art":"10\u201315 Years","current_art_regimen":"First-Line Regimen","do_you_routinely_undergo_viral_load_testing":"Yes","current_viral_load_status":"Undetectable","frequency_of_art_clinic_visits":"Every 3 Months","disclosure_status":"Disclosed","have_you_ever_heard_of_u_u":"Yes","who_first_informed_you_about_u_u":"Healthcare Provider","is_there_an_adolescent_psychosocial_support_program_at_your_health_facility":"Yes","have_healthcare_providers_discussed_u_u_with_you":"Yes","how_confident_are_healthcare_providers_when_counseling_about_u_u":"Very Confident","do_healthcare_providers_discuss_u_u_during_art_visits":"Sometimes","how_clearly_do_providers_explain_u_u":"Somewhat Clearly","do_providers_encourage_you_to_ask_questions":"Yes","do_you_feel_comfortable_discussing_hiv_and_u_u_with_healthcare_providers":"Yes","what_prevents_you_from_asking_questions":"Fear","are_you_currently_in_a_relationship":"Yes","partner_hiv_status":"HIV Negative","have_you_disclosed_your_hiv_status_to_your_partner":"Yes","do_you_still_have_concerns_about_intimacy_despite_u_u":"Yes","have_you_received_counseling_on_sexual_and_reproductive_health_related_to_u_u":"Yes","what_challenges_affect_your_art_adherence":"Forgetfulness","do_you_think_u_u_reduces_stigma_and_discrimination":"Yes","have_you_experienced_stigma_because_of_your_hiv_status":"Yes","if_yes_where_did_you_experience_stigma":"Family","how_confident_are_you_in_explaining_u_u_to_others":"Very Confident","what_support_would_help_you_become_more_confident_about_u_u":"More Information from Healthcare Providers,Printed Materials","additional_comments_or_suggestions":"Specially awernece creation touchd health care providers with Stigma pree-care \ud83d\ude4f"}
+2026-07-26 06:23:42 - INFO: Inserting record using regular query...
+2026-07-26 06:23:42 - INFO: Insert Query: INSERT INTO crud_data (form_id, data_json, submitted_by, submitted_by_name, submitted_by_email, ip_address, is_public_submission) 
+                         VALUES (5, '{\"i_voluntarily_agree_to_participate_in_this_survey\":\"I Agree\",\"sex\":\"Male\",\"age_group\":\"25\\u201329 Years\",\"religion\":\"Other\",\"highest_education_level\":\"Diploma\",\"employment_status\":\"Employed\",\"living_arrangement\":\"Alone\",\"how_long_have_you_been_on_art\":\"10\\u201315 Years\",\"current_art_regimen\":\"First-Line Regimen\",\"do_you_routinely_undergo_viral_load_testing\":\"Yes\",\"current_viral_load_status\":\"Undetectable\",\"frequency_of_art_clinic_visits\":\"Every 3 Months\",\"disclosure_status\":\"Disclosed\",\"have_you_ever_heard_of_u_u\":\"Yes\",\"who_first_informed_you_about_u_u\":\"Healthcare Provider\",\"is_there_an_adolescent_psychosocial_support_program_at_your_health_facility\":\"Yes\",\"have_healthcare_providers_discussed_u_u_with_you\":\"Yes\",\"how_confident_are_healthcare_providers_when_counseling_about_u_u\":\"Very Confident\",\"do_healthcare_providers_discuss_u_u_during_art_visits\":\"Sometimes\",\"how_clearly_do_providers_explain_u_u\":\"Somewhat Clearly\",\"do_providers_encourage_you_to_ask_questions\":\"Yes\",\"do_you_feel_comfortable_discussing_hiv_and_u_u_with_healthcare_providers\":\"Yes\",\"what_prevents_you_from_asking_questions\":\"Fear\",\"are_you_currently_in_a_relationship\":\"Yes\",\"partner_hiv_status\":\"HIV Negative\",\"have_you_disclosed_your_hiv_status_to_your_partner\":\"Yes\",\"do_you_still_have_concerns_about_intimacy_despite_u_u\":\"Yes\",\"have_you_received_counseling_on_sexual_and_reproductive_health_related_to_u_u\":\"Yes\",\"what_challenges_affect_your_art_adherence\":\"Forgetfulness\",\"do_you_think_u_u_reduces_stigma_and_discrimination\":\"Yes\",\"have_you_experienced_stigma_because_of_your_hiv_status\":\"Yes\",\"if_yes_where_did_you_experience_stigma\":\"Family\",\"how_confident_are_you_in_explaining_u_u_to_others\":\"Very Confident\",\"what_support_would_help_you_become_more_confident_about_u_u\":\"More Information from Healthcare Providers,Printed Materials\",\"additional_comments_or_suggestions\":\"Specially awernece creation touchd health care providers with Stigma pree-care \\ud83d\\ude4f\"}', NULL, 'Anonymous', '', '196.189.145.190', 1)
+2026-07-26 06:23:42 - INFO: Record inserted with ID: 51
+2026-07-26 06:23:42 - INFO: Sending notifications...
+2026-07-26 06:23:42 - INFO: Admin notification sent
+2026-07-26 06:23:42 - INFO: SUCCESS: {"success":true,"message":"Form submitted successfully! Reference: #51","thank_you_message":"Thank you for participating in this survey. Your responses are confidential and will only be used for research and program improvement."}
+2026-07-26 06:23:58 - INFO: === public_form.php started ===
+2026-07-26 06:23:58 - INFO: CSRF token generated: d985aa23bec190f6ea24...
+2026-07-26 06:24:01 - INFO: === public_form.php started ===
+2026-07-26 06:24:01 - INFO: CSRF token generated: 35bf3e69f70ec8617298...
+2026-07-26 06:24:01 - INFO: === FORM SUBMISSION STARTED ===
+2026-07-26 06:24:01 - INFO: POST data - DATA: Array
+(
+    [website_url_hp] => 
+    [i_voluntarily_agree_to_participate_in_this_survey] => Array
+        (
+            [0] => I Agree
+        )
+
+    [sex] => Female
+    [age_group] => 20–24 Years
+    [religion] => Muslim
+    [highest_education_level] => Bachelor's Degree
+    [employment_status] => Employed
+    [living_arrangement] => With Family
+    [how_long_have_you_been_on_art] => 10–15 Years
+    [current_art_regimen] => First-Line Regimen
+    [do_you_routinely_undergo_viral_load_testing] => Yes
+    [current_viral_load_status] => Undetectable
+    [frequency_of_art_clinic_visits] => Every 3 Months
+    [disclosure_status] => Disclosed
+    [have_you_ever_heard_of_u_u] => Yes
+    [who_first_informed_you_about_u_u] => Friend
+    [is_there_an_adolescent_psychosocial_support_program_at_your_health_facility] => Yes
+    [have_healthcare_providers_discussed_u_u_with_you] => No
+    [how_confident_are_healthcare_providers_when_counseling_about_u_u] => Not Confident
+    [do_healthcare_providers_discuss_u_u_during_art_visits] => Never
+    [how_clearly_do_providers_explain_u_u] => Somewhat Clearly
+    [do_providers_encourage_you_to_ask_questions] => Sometimes
+    [do_you_feel_comfortable_discussing_hiv_and_u_u_with_healthcare_providers] => No
+    [what_prevents_you_from_asking_questions] => Array
+        (
+            [0] => Provider Attitude
+        )
+
+    [are_you_currently_in_a_relationship] => No
+    [partner_hiv_status] => Unknown
+    [have_you_disclosed_your_hiv_status_to_your_partner] => No
+    [do_you_still_have_concerns_about_intimacy_despite_u_u] => Sometimes
+    [have_you_received_counseling_on_sexual_and_reproductive_health_related_to_u_u] => No
+    [what_challenges_affect_your_art_adherence] => Array
+        (
+            [0] => Long Waiting Time
+        )
+
+    [do_you_think_u_u_reduces_stigma_and_discrimination] => Yes
+    [have_you_experienced_stigma_because_of_your_hiv_status] => Yes
+    [if_yes_where_did_you_experience_stigma] => Array
+        (
+            [0] => Health Facility
+        )
+
+    [how_confident_are_you_in_explaining_u_u_to_others] => Confident
+    [what_support_would_help_you_become_more_confident_about_u_u] => Array
+        (
+            [0] => Peer Support Groups
+            [1] => Community Education
+        )
+
+    [additional_comments_or_suggestions] => U=U concept is extremely important and truly beneficial, and it is something that should be clearly communicated and addressed to the public.
+    [submit_public_form] => 1
+    [csrf_token] => 35bf3e69f70ec86172987c029e23ba046f13e85465e35e500dffb59af8c8632c
+)
+
+2026-07-26 06:24:01 - INFO: FILES data - DATA: Array
+(
+)
+
+2026-07-26 06:24:01 - INFO: CSRF verified successfully
+2026-07-26 06:24:01 - INFO: CSRF token regenerated after submission: 8a8b93c2d8c1e79ae5f3...
+2026-07-26 06:24:01 - INFO: Form ID: 5, IP: 196.189.184.172
+2026-07-26 06:24:01 - INFO: Rate limit check passed
+2026-07-26 06:24:01 - INFO: Scheduling check passed
+2026-07-26 06:24:01 - INFO: Expiry check passed
+2026-07-26 06:24:01 - INFO: Submission limit check passed
+2026-07-26 06:24:01 - INFO: One per user check passed
+2026-07-26 06:24:01 - INFO: Processing 35 fields
+2026-07-26 06:24:01 - INFO: Data collected: {"i_voluntarily_agree_to_participate_in_this_survey":"I Agree","sex":"Female","age_group":"20\u201324 Years","religion":"Muslim","highest_education_level":"Bachelor's Degree","employment_status":"Employed","living_arrangement":"With Family","how_long_have_you_been_on_art":"10\u201315 Years","current_art_regimen":"First-Line Regimen","do_you_routinely_undergo_viral_load_testing":"Yes","current_viral_load_status":"Undetectable","frequency_of_art_clinic_visits":"Every 3 Months","disclosure_status":"Disclosed","have_you_ever_heard_of_u_u":"Yes","who_first_informed_you_about_u_u":"Friend","is_there_an_adolescent_psychosocial_support_program_at_your_health_facility":"Yes","have_healthcare_providers_discussed_u_u_with_you":"No","how_confident_are_healthcare_providers_when_counseling_about_u_u":"Not Confident","do_healthcare_providers_discuss_u_u_during_art_visits":"Never","how_clearly_do_providers_explain_u_u":"Somewhat Clearly","do_providers_encourage_you_to_ask_questions":"Sometimes","do_you_feel_comfortable_discussing_hiv_and_u_u_with_healthcare_providers":"No","what_prevents_you_from_asking_questions":"Provider Attitude","are_you_currently_in_a_relationship":"No","partner_hiv_status":"Unknown","have_you_disclosed_your_hiv_status_to_your_partner":"No","do_you_still_have_concerns_about_intimacy_despite_u_u":"Sometimes","have_you_received_counseling_on_sexual_and_reproductive_health_related_to_u_u":"No","what_challenges_affect_your_art_adherence":"Long Waiting Time","do_you_think_u_u_reduces_stigma_and_discrimination":"Yes","have_you_experienced_stigma_because_of_your_hiv_status":"Yes","if_yes_where_did_you_experience_stigma":"Health Facility","how_confident_are_you_in_explaining_u_u_to_others":"Confident","what_support_would_help_you_become_more_confident_about_u_u":"Peer Support Groups,Community Education","additional_comments_or_suggestions":"U=U concept is extremely important and truly beneficial, and it is something that should be clearly communicated and addressed to the public."}
+2026-07-26 06:24:01 - INFO: Data JSON: {"i_voluntarily_agree_to_participate_in_this_survey":"I Agree","sex":"Female","age_group":"20\u201324 Years","religion":"Muslim","highest_education_level":"Bachelor's Degree","employment_status":"Employed","living_arrangement":"With Family","how_long_have_you_been_on_art":"10\u201315 Years","current_art_regimen":"First-Line Regimen","do_you_routinely_undergo_viral_load_testing":"Yes","current_viral_load_status":"Undetectable","frequency_of_art_clinic_visits":"Every 3 Months","disclosure_status":"Disclosed","have_you_ever_heard_of_u_u":"Yes","who_first_informed_you_about_u_u":"Friend","is_there_an_adolescent_psychosocial_support_program_at_your_health_facility":"Yes","have_healthcare_providers_discussed_u_u_with_you":"No","how_confident_are_healthcare_providers_when_counseling_about_u_u":"Not Confident","do_healthcare_providers_discuss_u_u_during_art_visits":"Never","how_clearly_do_providers_explain_u_u":"Somewhat Clearly","do_providers_encourage_you_to_ask_questions":"Sometimes","do_you_feel_comfortable_discussing_hiv_and_u_u_with_healthcare_providers":"No","what_prevents_you_from_asking_questions":"Provider Attitude","are_you_currently_in_a_relationship":"No","partner_hiv_status":"Unknown","have_you_disclosed_your_hiv_status_to_your_partner":"No","do_you_still_have_concerns_about_intimacy_despite_u_u":"Sometimes","have_you_received_counseling_on_sexual_and_reproductive_health_related_to_u_u":"No","what_challenges_affect_your_art_adherence":"Long Waiting Time","do_you_think_u_u_reduces_stigma_and_discrimination":"Yes","have_you_experienced_stigma_because_of_your_hiv_status":"Yes","if_yes_where_did_you_experience_stigma":"Health Facility","how_confident_are_you_in_explaining_u_u_to_others":"Confident","what_support_would_help_you_become_more_confident_about_u_u":"Peer Support Groups,Community Education","additional_comments_or_suggestions":"U=U concept is extremely important and truly beneficial, and it is something that should be clearly communicated and addressed to the public."}
+2026-07-26 06:24:01 - INFO: Inserting record using regular query...
+2026-07-26 06:24:01 - INFO: Insert Query: INSERT INTO crud_data (form_id, data_json, submitted_by, submitted_by_name, submitted_by_email, ip_address, is_public_submission) 
+                         VALUES (5, '{\"i_voluntarily_agree_to_participate_in_this_survey\":\"I Agree\",\"sex\":\"Female\",\"age_group\":\"20\\u201324 Years\",\"religion\":\"Muslim\",\"highest_education_level\":\"Bachelor\'s Degree\",\"employment_status\":\"Employed\",\"living_arrangement\":\"With Family\",\"how_long_have_you_been_on_art\":\"10\\u201315 Years\",\"current_art_regimen\":\"First-Line Regimen\",\"do_you_routinely_undergo_viral_load_testing\":\"Yes\",\"current_viral_load_status\":\"Undetectable\",\"frequency_of_art_clinic_visits\":\"Every 3 Months\",\"disclosure_status\":\"Disclosed\",\"have_you_ever_heard_of_u_u\":\"Yes\",\"who_first_informed_you_about_u_u\":\"Friend\",\"is_there_an_adolescent_psychosocial_support_program_at_your_health_facility\":\"Yes\",\"have_healthcare_providers_discussed_u_u_with_you\":\"No\",\"how_confident_are_healthcare_providers_when_counseling_about_u_u\":\"Not Confident\",\"do_healthcare_providers_discuss_u_u_during_art_visits\":\"Never\",\"how_clearly_do_providers_explain_u_u\":\"Somewhat Clearly\",\"do_providers_encourage_you_to_ask_questions\":\"Sometimes\",\"do_you_feel_comfortable_discussing_hiv_and_u_u_with_healthcare_providers\":\"No\",\"what_prevents_you_from_asking_questions\":\"Provider Attitude\",\"are_you_currently_in_a_relationship\":\"No\",\"partner_hiv_status\":\"Unknown\",\"have_you_disclosed_your_hiv_status_to_your_partner\":\"No\",\"do_you_still_have_concerns_about_intimacy_despite_u_u\":\"Sometimes\",\"have_you_received_counseling_on_sexual_and_reproductive_health_related_to_u_u\":\"No\",\"what_challenges_affect_your_art_adherence\":\"Long Waiting Time\",\"do_you_think_u_u_reduces_stigma_and_discrimination\":\"Yes\",\"have_you_experienced_stigma_because_of_your_hiv_status\":\"Yes\",\"if_yes_where_did_you_experience_stigma\":\"Health Facility\",\"how_confident_are_you_in_explaining_u_u_to_others\":\"Confident\",\"what_support_would_help_you_become_more_confident_about_u_u\":\"Peer Support Groups,Community Education\",\"additional_comments_or_suggestions\":\"U=U concept is extremely important and truly beneficial, and it is something that should be clearly communicated and addressed to the public.\"}', NULL, 'Anonymous', '', '196.189.184.172', 1)
+2026-07-26 06:24:01 - INFO: Record inserted with ID: 52
+2026-07-26 06:24:01 - INFO: Sending notifications...
+2026-07-26 06:24:01 - INFO: Admin notification sent
+2026-07-26 06:24:01 - INFO: SUCCESS: {"success":true,"message":"Form submitted successfully! Reference: #52","thank_you_message":"Thank you for participating in this survey. Your responses are confidential and will only be used for research and program improvement."}
+2026-07-26 06:24:11 - INFO: === public_form.php started ===
+2026-07-26 06:24:11 - INFO: CSRF token generated: 8a8b93c2d8c1e79ae5f3...
+2026-07-26 08:39:08 - INFO: === public_form.php started ===
+2026-07-26 08:39:08 - INFO: CSRF token generated: d8dd5afa41cf53279618...
+2026-07-26 08:59:02 - INFO: === public_form.php started ===
+2026-07-26 08:59:02 - INFO: CSRF token generated: c14f94bbc82d954c1a59...
+2026-07-26 19:32:14 - INFO: === public_form.php started ===
+2026-07-26 19:32:14 - INFO: CSRF token generated: cb98b91a8273ef983bbd...
+2026-07-26 19:33:13 - INFO: === public_form.php started ===
+2026-07-26 19:33:13 - INFO: CSRF token generated: cb98b91a8273ef983bbd...
+2026-07-26 19:33:13 - INFO: === FORM SUBMISSION STARTED ===
+2026-07-26 19:33:13 - INFO: POST data - DATA: Array
+(
+    [website_url_hp] => 
+    [full_name] => Muhafiz Ahmed Ahmed
+    [gender] => Male
+    [age] => 45
+    [city_region] => Adis Ababa
+    [phone_number] => 0982973939
+    [email_address] => muhafizahmede@gmail.com
+    [how_would_you_like_to_contribute] => Array
+        (
+            [0] => Content Creation
+        )
+
+    [approximately] => 3–5 hours
+    [submit_public_form] => 1
+    [csrf_token] => cb98b91a8273ef983bbd08ca8d83f6dc3cc1f6d99ad5202a6a42f88b46aa045a
+)
+
+2026-07-26 19:33:13 - INFO: FILES data - DATA: Array
+(
+)
+
+2026-07-26 19:33:13 - INFO: CSRF verified successfully
+2026-07-26 19:33:13 - INFO: CSRF token regenerated after submission: 07f7ba8d9e64c61ce3ff...
+2026-07-26 19:33:13 - INFO: Form ID: 4, IP: 196.188.161.163
+2026-07-26 19:33:13 - INFO: Rate limit check passed
+2026-07-26 19:33:13 - INFO: Scheduling check passed
+2026-07-26 19:33:13 - INFO: Expiry check passed
+2026-07-26 19:33:13 - INFO: Submission limit check passed
+2026-07-26 19:33:13 - INFO: One per user check passed
+2026-07-26 19:33:13 - INFO: Processing 8 fields
+2026-07-26 19:33:13 - INFO: Data collected: {"full_name":"Muhafiz Ahmed Ahmed","gender":"Male","age":"45","city_region":"Adis Ababa","phone_number":"0982973939","email_address":"muhafizahmede@gmail.com","how_would_you_like_to_contribute":"Content Creation","approximately":"3\u20135 hours"}
+2026-07-26 19:33:13 - INFO: Data JSON: {"full_name":"Muhafiz Ahmed Ahmed","gender":"Male","age":"45","city_region":"Adis Ababa","phone_number":"0982973939","email_address":"muhafizahmede@gmail.com","how_would_you_like_to_contribute":"Content Creation","approximately":"3\u20135 hours"}
+2026-07-26 19:33:13 - INFO: Inserting record using regular query...
+2026-07-26 19:33:13 - INFO: Insert Query: INSERT INTO crud_data (form_id, data_json, submitted_by, submitted_by_name, submitted_by_email, ip_address, is_public_submission) 
+                         VALUES (4, '{\"full_name\":\"Muhafiz Ahmed Ahmed\",\"gender\":\"Male\",\"age\":\"45\",\"city_region\":\"Adis Ababa\",\"phone_number\":\"0982973939\",\"email_address\":\"muhafizahmede@gmail.com\",\"how_would_you_like_to_contribute\":\"Content Creation\",\"approximately\":\"3\\u20135 hours\"}', NULL, 'Muhafiz Ahmed Ahmed', '', '196.188.161.163', 1)
+2026-07-26 19:33:13 - INFO: Record inserted with ID: 53
+2026-07-26 19:33:13 - INFO: Sending notifications...
+2026-07-26 19:33:13 - INFO: SUCCESS: {"success":true,"message":"Form submitted successfully! Reference: #53","thank_you_message":"# \ud83c\udf89 Thank You!\r\n\r\nYour registration was successful.\r\n\r\nWe'll review your application and contact you if selected.\r\n\r\n**Thank you! \u2764\ufe0f**"}
+2026-07-26 19:33:15 - INFO: === public_form.php started ===
+2026-07-26 19:33:15 - INFO: CSRF token generated: 07f7ba8d9e64c61ce3ff...
+2026-07-27 08:32:23 - INFO: === public_form.php started ===
+2026-07-27 08:32:23 - INFO: CSRF token generated: 555a3c7aa5269d457ed9...
+2026-07-27 08:35:28 - INFO: === public_form.php started ===
+2026-07-27 08:35:28 - INFO: CSRF token generated: e3243a88f714d89cd26b...
+2026-07-27 09:04:47 - INFO: === public_form.php started ===
+2026-07-27 09:04:47 - INFO: CSRF token generated: deb71120729b3fc02336...
+2026-07-27 09:11:50 - INFO: === public_form.php started ===
+2026-07-27 09:11:50 - INFO: CSRF token generated: d36445d86329a0c8db54...
+2026-07-27 09:28:30 - INFO: === public_form.php started ===
+2026-07-27 09:28:30 - INFO: CSRF token generated: e87afa333e4fac782240...
+2026-07-27 10:08:40 - INFO: === public_form.php started ===
+2026-07-27 10:08:40 - INFO: CSRF token generated: 6728b3d89d33f3cf1170...
+2026-07-27 10:25:36 - INFO: === public_form.php started ===
+2026-07-27 10:25:36 - INFO: CSRF token generated: bfdf1fd9a359e3c1664b...
+2026-07-27 10:30:59 - INFO: === public_form.php started ===
+2026-07-27 10:30:59 - INFO: CSRF token generated: bfdf1fd9a359e3c1664b...
+2026-07-27 10:30:59 - INFO: === FORM SUBMISSION STARTED ===
+2026-07-27 10:30:59 - INFO: POST data - DATA: Array
+(
+    [website_url_hp] => 
+    [i_voluntarily_agree_to_participate_in_this_survey] => Array
+        (
+            [0] => I Agree
+        )
+
+    [sex] => Male
+    [age_group] => 20–24 Years
+    [religion] => Orthodox
+    [highest_education_level] => Secondary
+    [employment_status] => Employed
+    [living_arrangement] => With Family
+    [how_long_have_you_been_on_art] => 6–10 Years
+    [current_art_regimen] => First-Line Regimen
+    [do_you_routinely_undergo_viral_load_testing] => Sometimes
+    [current_viral_load_status] => Undetectable
+    [frequency_of_art_clinic_visits] => Every 6 Months
+    [disclosure_status] => Disclosed
+    [have_you_ever_heard_of_u_u] => Yes
+    [who_first_informed_you_about_u_u] => Healthcare Provider
+    [is_there_an_adolescent_psychosocial_support_program_at_your_health_facility] => Yes
+    [have_healthcare_providers_discussed_u_u_with_you] => No
+    [how_confident_are_healthcare_providers_when_counseling_about_u_u] => Not Confident
+    [do_healthcare_providers_discuss_u_u_during_art_visits] => Never
+    [how_clearly_do_providers_explain_u_u] => Not Clearly
+    [do_providers_encourage_you_to_ask_questions] => Sometimes
+    [do_you_feel_comfortable_discussing_hiv_and_u_u_with_healthcare_providers] => No
+    [what_prevents_you_from_asking_questions] => Array
+        (
+            [0] => Stigma
+        )
+
+    [are_you_currently_in_a_relationship] => No
+    [partner_hiv_status] => HIV Positive
+    [have_you_disclosed_your_hiv_status_to_your_partner] => No
+    [do_you_still_have_concerns_about_intimacy_despite_u_u] => Sometimes
+    [have_you_received_counseling_on_sexual_and_reproductive_health_related_to_u_u] => Sometimes
+    [what_challenges_affect_your_art_adherence] => Array
+        (
+            [0] => Drug Side Effects
+            [1] => Long Waiting Time
+            [2] => Other
+        )
+
+    [do_you_think_u_u_reduces_stigma_and_discrimination] => No
+    [have_you_experienced_stigma_because_of_your_hiv_status] => Sometimes
+    [if_yes_where_did_you_experience_stigma] => Array
+        (
+            [0] => Community
+        )
+
+    [how_confident_are_you_in_explaining_u_u_to_others] => Confident
+    [what_support_would_help_you_become_more_confident_about_u_u] => Array
+        (
+            [0] => More Information from Healthcare Providers
+            [1] => Media Campaigns
+        )
+
+    [additional_comments_or_suggestions] => 
+    [submit_public_form] => 1
+    [csrf_token] => bfdf1fd9a359e3c1664b47775caf891d16efddf46545a6e8d559714e20845519
+)
+
+2026-07-27 10:30:59 - INFO: FILES data - DATA: Array
+(
+)
+
+2026-07-27 10:30:59 - INFO: CSRF verified successfully
+2026-07-27 10:30:59 - INFO: CSRF token regenerated after submission: 530272c92aff78ca02c2...
+2026-07-27 10:30:59 - INFO: Form ID: 5, IP: 196.188.226.3
+2026-07-27 10:30:59 - INFO: Rate limit check passed
+2026-07-27 10:30:59 - INFO: Scheduling check passed
+2026-07-27 10:30:59 - INFO: Expiry check passed
+2026-07-27 10:30:59 - INFO: Submission limit check passed
+2026-07-27 10:30:59 - INFO: One per user check passed
+2026-07-27 10:30:59 - INFO: Processing 35 fields
+2026-07-27 10:30:59 - INFO: Data collected: {"i_voluntarily_agree_to_participate_in_this_survey":"I Agree","sex":"Male","age_group":"20\u201324 Years","religion":"Orthodox","highest_education_level":"Secondary","employment_status":"Employed","living_arrangement":"With Family","how_long_have_you_been_on_art":"6\u201310 Years","current_art_regimen":"First-Line Regimen","do_you_routinely_undergo_viral_load_testing":"Sometimes","current_viral_load_status":"Undetectable","frequency_of_art_clinic_visits":"Every 6 Months","disclosure_status":"Disclosed","have_you_ever_heard_of_u_u":"Yes","who_first_informed_you_about_u_u":"Healthcare Provider","is_there_an_adolescent_psychosocial_support_program_at_your_health_facility":"Yes","have_healthcare_providers_discussed_u_u_with_you":"No","how_confident_are_healthcare_providers_when_counseling_about_u_u":"Not Confident","do_healthcare_providers_discuss_u_u_during_art_visits":"Never","how_clearly_do_providers_explain_u_u":"Not Clearly","do_providers_encourage_you_to_ask_questions":"Sometimes","do_you_feel_comfortable_discussing_hiv_and_u_u_with_healthcare_providers":"No","what_prevents_you_from_asking_questions":"Stigma","are_you_currently_in_a_relationship":"No","partner_hiv_status":"HIV Positive","have_you_disclosed_your_hiv_status_to_your_partner":"No","do_you_still_have_concerns_about_intimacy_despite_u_u":"Sometimes","have_you_received_counseling_on_sexual_and_reproductive_health_related_to_u_u":"Sometimes","what_challenges_affect_your_art_adherence":"Drug Side Effects,Long Waiting Time,Other","do_you_think_u_u_reduces_stigma_and_discrimination":"No","have_you_experienced_stigma_because_of_your_hiv_status":"Sometimes","if_yes_where_did_you_experience_stigma":"Community","how_confident_are_you_in_explaining_u_u_to_others":"Confident","what_support_would_help_you_become_more_confident_about_u_u":"More Information from Healthcare Providers,Media Campaigns","additional_comments_or_suggestions":""}
+2026-07-27 10:30:59 - INFO: Data JSON: {"i_voluntarily_agree_to_participate_in_this_survey":"I Agree","sex":"Male","age_group":"20\u201324 Years","religion":"Orthodox","highest_education_level":"Secondary","employment_status":"Employed","living_arrangement":"With Family","how_long_have_you_been_on_art":"6\u201310 Years","current_art_regimen":"First-Line Regimen","do_you_routinely_undergo_viral_load_testing":"Sometimes","current_viral_load_status":"Undetectable","frequency_of_art_clinic_visits":"Every 6 Months","disclosure_status":"Disclosed","have_you_ever_heard_of_u_u":"Yes","who_first_informed_you_about_u_u":"Healthcare Provider","is_there_an_adolescent_psychosocial_support_program_at_your_health_facility":"Yes","have_healthcare_providers_discussed_u_u_with_you":"No","how_confident_are_healthcare_providers_when_counseling_about_u_u":"Not Confident","do_healthcare_providers_discuss_u_u_during_art_visits":"Never","how_clearly_do_providers_explain_u_u":"Not Clearly","do_providers_encourage_you_to_ask_questions":"Sometimes","do_you_feel_comfortable_discussing_hiv_and_u_u_with_healthcare_providers":"No","what_prevents_you_from_asking_questions":"Stigma","are_you_currently_in_a_relationship":"No","partner_hiv_status":"HIV Positive","have_you_disclosed_your_hiv_status_to_your_partner":"No","do_you_still_have_concerns_about_intimacy_despite_u_u":"Sometimes","have_you_received_counseling_on_sexual_and_reproductive_health_related_to_u_u":"Sometimes","what_challenges_affect_your_art_adherence":"Drug Side Effects,Long Waiting Time,Other","do_you_think_u_u_reduces_stigma_and_discrimination":"No","have_you_experienced_stigma_because_of_your_hiv_status":"Sometimes","if_yes_where_did_you_experience_stigma":"Community","how_confident_are_you_in_explaining_u_u_to_others":"Confident","what_support_would_help_you_become_more_confident_about_u_u":"More Information from Healthcare Providers,Media Campaigns","additional_comments_or_suggestions":""}
+2026-07-27 10:30:59 - INFO: Inserting record using regular query...
+2026-07-27 10:30:59 - INFO: Insert Query: INSERT INTO crud_data (form_id, data_json, submitted_by, submitted_by_name, submitted_by_email, ip_address, is_public_submission) 
+                         VALUES (5, '{\"i_voluntarily_agree_to_participate_in_this_survey\":\"I Agree\",\"sex\":\"Male\",\"age_group\":\"20\\u201324 Years\",\"religion\":\"Orthodox\",\"highest_education_level\":\"Secondary\",\"employment_status\":\"Employed\",\"living_arrangement\":\"With Family\",\"how_long_have_you_been_on_art\":\"6\\u201310 Years\",\"current_art_regimen\":\"First-Line Regimen\",\"do_you_routinely_undergo_viral_load_testing\":\"Sometimes\",\"current_viral_load_status\":\"Undetectable\",\"frequency_of_art_clinic_visits\":\"Every 6 Months\",\"disclosure_status\":\"Disclosed\",\"have_you_ever_heard_of_u_u\":\"Yes\",\"who_first_informed_you_about_u_u\":\"Healthcare Provider\",\"is_there_an_adolescent_psychosocial_support_program_at_your_health_facility\":\"Yes\",\"have_healthcare_providers_discussed_u_u_with_you\":\"No\",\"how_confident_are_healthcare_providers_when_counseling_about_u_u\":\"Not Confident\",\"do_healthcare_providers_discuss_u_u_during_art_visits\":\"Never\",\"how_clearly_do_providers_explain_u_u\":\"Not Clearly\",\"do_providers_encourage_you_to_ask_questions\":\"Sometimes\",\"do_you_feel_comfortable_discussing_hiv_and_u_u_with_healthcare_providers\":\"No\",\"what_prevents_you_from_asking_questions\":\"Stigma\",\"are_you_currently_in_a_relationship\":\"No\",\"partner_hiv_status\":\"HIV Positive\",\"have_you_disclosed_your_hiv_status_to_your_partner\":\"No\",\"do_you_still_have_concerns_about_intimacy_despite_u_u\":\"Sometimes\",\"have_you_received_counseling_on_sexual_and_reproductive_health_related_to_u_u\":\"Sometimes\",\"what_challenges_affect_your_art_adherence\":\"Drug Side Effects,Long Waiting Time,Other\",\"do_you_think_u_u_reduces_stigma_and_discrimination\":\"No\",\"have_you_experienced_stigma_because_of_your_hiv_status\":\"Sometimes\",\"if_yes_where_did_you_experience_stigma\":\"Community\",\"how_confident_are_you_in_explaining_u_u_to_others\":\"Confident\",\"what_support_would_help_you_become_more_confident_about_u_u\":\"More Information from Healthcare Providers,Media Campaigns\",\"additional_comments_or_suggestions\":\"\"}', NULL, 'Anonymous', '', '196.188.226.3', 1)
+2026-07-27 10:30:59 - INFO: Record inserted with ID: 54
+2026-07-27 10:30:59 - INFO: Sending notifications...
+2026-07-27 10:30:59 - INFO: Admin notification sent
+2026-07-27 10:30:59 - INFO: SUCCESS: {"success":true,"message":"Form submitted successfully! Reference: #54","thank_you_message":"Thank you for participating in this survey. Your responses are confidential and will only be used for research and program improvement."}
+2026-07-27 10:31:06 - INFO: === public_form.php started ===
+2026-07-27 10:31:06 - INFO: CSRF token generated: 530272c92aff78ca02c2...
+2026-07-27 10:36:28 - INFO: === public_form.php started ===
+2026-07-27 10:36:28 - INFO: CSRF token generated: 44aee00c235713278f4b...
+2026-07-27 15:28:10 - INFO: === public_form.php started ===
+2026-07-27 15:28:10 - INFO: CSRF token generated: 5386512b94b1997c42b3...
+2026-07-27 15:32:17 - INFO: === public_form.php started ===
+2026-07-27 15:32:17 - INFO: CSRF token generated: 5386512b94b1997c42b3...
+2026-07-27 15:32:17 - INFO: === FORM SUBMISSION STARTED ===
+2026-07-27 15:32:17 - INFO: POST data - DATA: Array
+(
+    [website_url_hp] => 
+    [full_name] => HANAN Jemal 
+    [gender] => Female
+    [age] => 20
+    [city_region] => Addis Ababa 
+    [phone_number] => 0913972288
+    [email_address] => Myhani196@gmail.com
+    [how_would_you_like_to_contribute] => Array
+        (
+            [0] => HIV Awareness Campaigns
+        )
+
+    [approximately] => 3–5 hours
+    [submit_public_form] => 1
+    [csrf_token] => 5386512b94b1997c42b342186a41c2e3aa75bda2645de0be1e770730257d2877
+)
+
+2026-07-27 15:32:17 - INFO: FILES data - DATA: Array
+(
+)
+
+2026-07-27 15:32:17 - INFO: CSRF verified successfully
+2026-07-27 15:32:17 - INFO: CSRF token regenerated after submission: 64eac9d52ceb163ed861...
+2026-07-27 15:32:17 - INFO: Form ID: 4, IP: 196.191.61.40
+2026-07-27 15:32:17 - INFO: Rate limit check passed
+2026-07-27 15:32:17 - INFO: Scheduling check passed
+2026-07-27 15:32:17 - INFO: Expiry check passed
+2026-07-27 15:32:17 - INFO: Submission limit check passed
+2026-07-27 15:32:17 - INFO: One per user check passed
+2026-07-27 15:32:17 - INFO: Processing 8 fields
+2026-07-27 15:32:17 - INFO: Data collected: {"full_name":"HANAN Jemal","gender":"Female","age":"20","city_region":"Addis Ababa","phone_number":"0913972288","email_address":"Myhani196@gmail.com","how_would_you_like_to_contribute":"HIV Awareness Campaigns","approximately":"3\u20135 hours"}
+2026-07-27 15:32:17 - INFO: Data JSON: {"full_name":"HANAN Jemal","gender":"Female","age":"20","city_region":"Addis Ababa","phone_number":"0913972288","email_address":"Myhani196@gmail.com","how_would_you_like_to_contribute":"HIV Awareness Campaigns","approximately":"3\u20135 hours"}
+2026-07-27 15:32:17 - INFO: Inserting record using regular query...
+2026-07-27 15:32:17 - INFO: Insert Query: INSERT INTO crud_data (form_id, data_json, submitted_by, submitted_by_name, submitted_by_email, ip_address, is_public_submission) 
+                         VALUES (4, '{\"full_name\":\"HANAN Jemal\",\"gender\":\"Female\",\"age\":\"20\",\"city_region\":\"Addis Ababa\",\"phone_number\":\"0913972288\",\"email_address\":\"Myhani196@gmail.com\",\"how_would_you_like_to_contribute\":\"HIV Awareness Campaigns\",\"approximately\":\"3\\u20135 hours\"}', NULL, 'HANAN Jemal', '', '196.191.61.40', 1)
+2026-07-27 15:32:17 - INFO: Record inserted with ID: 55
+2026-07-27 15:32:17 - INFO: Sending notifications...
+2026-07-27 15:32:17 - INFO: SUCCESS: {"success":true,"message":"Form submitted successfully! Reference: #55","thank_you_message":"# \ud83c\udf89 Thank You!\r\n\r\nYour registration was successful.\r\n\r\nWe'll review your application and contact you if selected.\r\n\r\n**Thank you! \u2764\ufe0f**"}
+2026-07-27 15:32:23 - INFO: === public_form.php started ===
+2026-07-27 15:32:23 - INFO: CSRF token generated: 64eac9d52ceb163ed861...
+2026-07-27 17:30:29 - INFO: === public_form.php started ===
+2026-07-27 17:30:29 - INFO: CSRF token generated: 94af62ccb50980cc9c70...
+2026-07-27 17:57:35 - INFO: === public_form.php started ===
+2026-07-27 17:57:35 - INFO: CSRF token generated: bc09479a1812f0d378dd...
+2026-07-27 17:57:37 - INFO: === public_form.php started ===
+2026-07-27 17:57:37 - INFO: CSRF token generated: 2e02c4d9b7eb5c4940ec...
+2026-07-27 17:57:37 - INFO: === public_form.php started ===
+2026-07-27 17:57:37 - INFO: CSRF token generated: d55b3d7a11f9ae743577...
+2026-07-27 17:57:37 - INFO: === public_form.php started ===
+2026-07-27 17:57:37 - INFO: CSRF token generated: cb0db7ec924c59b82858...
+2026-07-27 17:58:41 - INFO: === public_form.php started ===
+2026-07-27 17:58:41 - INFO: CSRF token generated: 23cf968bbe3923882258...
+2026-07-27 18:09:47 - INFO: === public_form.php started ===
+2026-07-27 18:09:47 - INFO: CSRF token generated: c0de592838fbd15c73bb...
+2026-07-27 18:18:34 - INFO: === public_form.php started ===
+2026-07-27 18:18:34 - INFO: CSRF token generated: 60c064b95b2b566f718d...
+2026-07-27 18:19:09 - INFO: === public_form.php started ===
+2026-07-27 18:19:09 - INFO: CSRF token generated: c0de592838fbd15c73bb...
+2026-07-27 18:19:10 - INFO: === public_form.php started ===
+2026-07-27 18:19:10 - INFO: CSRF token generated: 60c064b95b2b566f718d...
+2026-07-27 18:19:16 - INFO: === public_form.php started ===
+2026-07-27 18:19:16 - INFO: CSRF token generated: c0de592838fbd15c73bb...
+2026-07-27 18:21:06 - INFO: === public_form.php started ===
+2026-07-27 18:21:06 - INFO: CSRF token generated: 7e02a5f8075cb6da4b72...
+2026-07-27 18:21:56 - INFO: === public_form.php started ===
+2026-07-27 18:21:56 - INFO: CSRF token generated: 60c064b95b2b566f718d...
+2026-07-27 18:21:56 - INFO: === FORM SUBMISSION STARTED ===
+2026-07-27 18:21:56 - INFO: POST data - DATA: Array
+(
+    [website_url_hp] => 
+    [full_name] => Muluken tesfaye
+    [gender] => Male
+    [age] => 29
+    [city_region] => Adiss Ababa 
+    [phone_number] => 0937774757
+    [email_address] => Mulukentesfaye14@gmail.com
+    [how_would_you_like_to_contribute] => Array
+        (
+            [0] => Community Engagement
+            [1] => HIV Awareness Campaigns
+            [2] => Event Volunteer
+            [3] => Other
+        )
+
+    [approximately] => 3–5 hours
+    [submit_public_form] => 1
+    [csrf_token] => 60c064b95b2b566f718d149ca4dff56244ddb030223cb020cd74c35d46e48cbf
+)
+
+2026-07-27 18:21:56 - INFO: FILES data - DATA: Array
+(
+)
+
+2026-07-27 18:21:56 - INFO: CSRF verified successfully
+2026-07-27 18:21:56 - INFO: CSRF token regenerated after submission: 10faccc31a9c82133b4f...
+2026-07-27 18:21:56 - INFO: Form ID: 4, IP: 196.191.221.248
+2026-07-27 18:21:56 - INFO: Rate limit check passed
+2026-07-27 18:21:56 - INFO: Scheduling check passed
+2026-07-27 18:21:56 - INFO: Expiry check passed
+2026-07-27 18:21:56 - INFO: Submission limit check passed
+2026-07-27 18:21:56 - INFO: One per user check passed
+2026-07-27 18:21:56 - INFO: Processing 8 fields
+2026-07-27 18:21:56 - INFO: Data collected: {"full_name":"Muluken tesfaye","gender":"Male","age":"29","city_region":"Adiss Ababa","phone_number":"0937774757","email_address":"Mulukentesfaye14@gmail.com","how_would_you_like_to_contribute":"Community Engagement,HIV Awareness Campaigns,Event Volunteer,Other","approximately":"3\u20135 hours"}
+2026-07-27 18:21:56 - INFO: Data JSON: {"full_name":"Muluken tesfaye","gender":"Male","age":"29","city_region":"Adiss Ababa","phone_number":"0937774757","email_address":"Mulukentesfaye14@gmail.com","how_would_you_like_to_contribute":"Community Engagement,HIV Awareness Campaigns,Event Volunteer,Other","approximately":"3\u20135 hours"}
+2026-07-27 18:21:56 - INFO: Inserting record using regular query...
+2026-07-27 18:21:56 - INFO: Insert Query: INSERT INTO crud_data (form_id, data_json, submitted_by, submitted_by_name, submitted_by_email, ip_address, is_public_submission) 
+                         VALUES (4, '{\"full_name\":\"Muluken tesfaye\",\"gender\":\"Male\",\"age\":\"29\",\"city_region\":\"Adiss Ababa\",\"phone_number\":\"0937774757\",\"email_address\":\"Mulukentesfaye14@gmail.com\",\"how_would_you_like_to_contribute\":\"Community Engagement,HIV Awareness Campaigns,Event Volunteer,Other\",\"approximately\":\"3\\u20135 hours\"}', NULL, 'Muluken tesfaye', '', '196.191.221.248', 1)
+2026-07-27 18:21:56 - INFO: Record inserted with ID: 56
+2026-07-27 18:21:56 - INFO: Sending notifications...
+2026-07-27 18:21:56 - INFO: SUCCESS: {"success":true,"message":"Form submitted successfully! Reference: #56","thank_you_message":"# \ud83c\udf89 Thank You!\r\n\r\nYour registration was successful.\r\n\r\nWe'll review your application and contact you if selected.\r\n\r\n**Thank you! \u2764\ufe0f**"}
+2026-07-27 18:22:04 - INFO: === public_form.php started ===
+2026-07-27 18:22:04 - INFO: CSRF token generated: 10faccc31a9c82133b4f...
+2026-07-27 18:50:18 - INFO: === public_form.php started ===
+2026-07-27 18:50:18 - INFO: CSRF token generated: 38a68a97c3ea3a4082dc...
+2026-07-27 18:53:14 - INFO: === public_form.php started ===
+2026-07-27 18:53:14 - INFO: CSRF token generated: 38a68a97c3ea3a4082dc...
+2026-07-27 18:53:14 - INFO: === FORM SUBMISSION STARTED ===
+2026-07-27 18:53:14 - INFO: POST data - DATA: Array
+(
+    [website_url_hp] => 
+    [full_name] => Eden Melese Getachew
+    [gender] => Female
+    [age] => 24
+    [city_region] => Addisabeba
+    [phone_number] => 0967755578
+    [email_address] => Edumelese@gmail.com
+    [how_would_you_like_to_contribute] => Array
+        (
+            [0] => HIV Awareness Campaigns
+            [1] => Event Volunteer
+            [2] => Other
+        )
+
+    [approximately] => 3–5 hours
+    [submit_public_form] => 1
+    [csrf_token] => 38a68a97c3ea3a4082dc1281a05bbbefa352715988207da9649e7627b0aed445
+)
+
+2026-07-27 18:53:14 - INFO: FILES data - DATA: Array
+(
+)
+
+2026-07-27 18:53:14 - INFO: CSRF verified successfully
+2026-07-27 18:53:14 - INFO: CSRF token regenerated after submission: 37125943f9ae51ab10a3...
+2026-07-27 18:53:14 - INFO: Form ID: 4, IP: 196.188.181.56
+2026-07-27 18:53:14 - INFO: Rate limit check passed
+2026-07-27 18:53:14 - INFO: Scheduling check passed
+2026-07-27 18:53:14 - INFO: Expiry check passed
+2026-07-27 18:53:14 - INFO: Submission limit check passed
+2026-07-27 18:53:14 - INFO: One per user check passed
+2026-07-27 18:53:14 - INFO: Processing 8 fields
+2026-07-27 18:53:14 - INFO: Data collected: {"full_name":"Eden Melese Getachew","gender":"Female","age":"24","city_region":"Addisabeba","phone_number":"0967755578","email_address":"Edumelese@gmail.com","how_would_you_like_to_contribute":"HIV Awareness Campaigns,Event Volunteer,Other","approximately":"3\u20135 hours"}
+2026-07-27 18:53:14 - INFO: Data JSON: {"full_name":"Eden Melese Getachew","gender":"Female","age":"24","city_region":"Addisabeba","phone_number":"0967755578","email_address":"Edumelese@gmail.com","how_would_you_like_to_contribute":"HIV Awareness Campaigns,Event Volunteer,Other","approximately":"3\u20135 hours"}
+2026-07-27 18:53:14 - INFO: Inserting record using regular query...
+2026-07-27 18:53:14 - INFO: Insert Query: INSERT INTO crud_data (form_id, data_json, submitted_by, submitted_by_name, submitted_by_email, ip_address, is_public_submission) 
+                         VALUES (4, '{\"full_name\":\"Eden Melese Getachew\",\"gender\":\"Female\",\"age\":\"24\",\"city_region\":\"Addisabeba\",\"phone_number\":\"0967755578\",\"email_address\":\"Edumelese@gmail.com\",\"how_would_you_like_to_contribute\":\"HIV Awareness Campaigns,Event Volunteer,Other\",\"approximately\":\"3\\u20135 hours\"}', NULL, 'Eden Melese Getachew', '', '196.188.181.56', 1)
+2026-07-27 18:53:14 - INFO: Record inserted with ID: 57
+2026-07-27 18:53:14 - INFO: Sending notifications...
+2026-07-27 18:53:14 - INFO: SUCCESS: {"success":true,"message":"Form submitted successfully! Reference: #57","thank_you_message":"# \ud83c\udf89 Thank You!\r\n\r\nYour registration was successful.\r\n\r\nWe'll review your application and contact you if selected.\r\n\r\n**Thank you! \u2764\ufe0f**"}
+2026-07-27 18:53:19 - INFO: === public_form.php started ===
+2026-07-27 18:53:19 - INFO: CSRF token generated: 37125943f9ae51ab10a3...
+2026-07-27 18:54:26 - INFO: === public_form.php started ===
+2026-07-27 18:54:26 - INFO: CSRF token generated: 37125943f9ae51ab10a3...
+2026-07-28 04:59:55 - INFO: === public_form.php started ===
+2026-07-28 04:59:55 - INFO: CSRF token generated: 0c69be0394815fb35cb6...
+2026-07-28 14:23:13 - INFO: === public_form.php started ===
+2026-07-28 14:23:13 - INFO: CSRF token generated: 5ca8283affd582eba197...
+2026-07-28 14:23:43 - INFO: === public_form.php started ===
+2026-07-28 14:23:43 - INFO: CSRF token generated: 5ca8283affd582eba197...
+2026-07-28 18:35:33 - INFO: === public_form.php started ===
+2026-07-28 18:35:33 - INFO: CSRF token generated: 0a4218300a5d4ba81166...
+2026-07-28 18:44:31 - INFO: === public_form.php started ===
+2026-07-28 18:44:31 - INFO: CSRF token generated: 0a4218300a5d4ba81166...
+2026-07-28 18:44:31 - INFO: === FORM SUBMISSION STARTED ===
+2026-07-28 18:44:31 - INFO: POST data - DATA: Array
+(
+    [website_url_hp] => 
+    [full_name] => Habtamu Oyka
+    [gender] => Male
+    [age] => 20
+    [city_region] => Boditi
+    [phone_number] => 0922199110
+    [email_address] => hbtomy123@gmail.com
+    [how_would_you_like_to_contribute] => Array
+        (
+            [0] => Social Media Management
+        )
+
+    [approximately] => 1–2 hours
+    [submit_public_form] => 1
+    [csrf_token] => 0a4218300a5d4ba81166ba5a6e9d19e88471816afab8a163da47ad461fde713d
+)
+
+2026-07-28 18:44:31 - INFO: FILES data - DATA: Array
+(
+)
+
+2026-07-28 18:44:31 - INFO: CSRF verified successfully
+2026-07-28 18:44:31 - INFO: CSRF token regenerated after submission: 3a5e6f7a434c8e2558e6...
+2026-07-28 18:44:31 - INFO: Form ID: 4, IP: 196.191.240.193
+2026-07-28 18:44:31 - INFO: Rate limit check passed
+2026-07-28 18:44:31 - INFO: Scheduling check passed
+2026-07-28 18:44:31 - INFO: Expiry check passed
+2026-07-28 18:44:31 - INFO: Submission limit check passed
+2026-07-28 18:44:31 - INFO: One per user check passed
+2026-07-28 18:44:31 - INFO: Processing 8 fields
+2026-07-28 18:44:31 - INFO: Data collected: {"full_name":"Habtamu Oyka","gender":"Male","age":"20","city_region":"Boditi","phone_number":"0922199110","email_address":"hbtomy123@gmail.com","how_would_you_like_to_contribute":"Social Media Management","approximately":"1\u20132 hours"}
+2026-07-28 18:44:31 - INFO: Data JSON: {"full_name":"Habtamu Oyka","gender":"Male","age":"20","city_region":"Boditi","phone_number":"0922199110","email_address":"hbtomy123@gmail.com","how_would_you_like_to_contribute":"Social Media Management","approximately":"1\u20132 hours"}
+2026-07-28 18:44:31 - INFO: Inserting record using regular query...
+2026-07-28 18:44:31 - INFO: Insert Query: INSERT INTO crud_data (form_id, data_json, submitted_by, submitted_by_name, submitted_by_email, ip_address, is_public_submission) 
+                         VALUES (4, '{\"full_name\":\"Habtamu Oyka\",\"gender\":\"Male\",\"age\":\"20\",\"city_region\":\"Boditi\",\"phone_number\":\"0922199110\",\"email_address\":\"hbtomy123@gmail.com\",\"how_would_you_like_to_contribute\":\"Social Media Management\",\"approximately\":\"1\\u20132 hours\"}', NULL, 'Habtamu Oyka', '', '196.191.240.193', 1)
+2026-07-28 18:44:31 - INFO: Record inserted with ID: 58
+2026-07-28 18:44:31 - INFO: Sending notifications...
+2026-07-28 18:44:31 - INFO: SUCCESS: {"success":true,"message":"Form submitted successfully! Reference: #58","thank_you_message":"# \ud83c\udf89 Thank You!\r\n\r\nYour registration was successful.\r\n\r\nWe'll review your application and contact you if selected.\r\n\r\n**Thank you! \u2764\ufe0f**"}
+2026-07-28 18:44:34 - INFO: === public_form.php started ===
+2026-07-28 18:44:34 - INFO: CSRF token generated: 3a5e6f7a434c8e2558e6...
+2026-07-29 18:47:10 - INFO: === public_form.php started ===
+2026-07-29 18:47:10 - INFO: CSRF token generated: 86a87095cb8c2a5912f5...
+2026-07-29 18:47:13 - INFO: === public_form.php started ===
+2026-07-29 18:47:13 - INFO: CSRF token generated: d9e8759a198929b7fc53...
+2026-07-29 18:47:22 - INFO: === public_form.php started ===
+2026-07-29 18:47:22 - INFO: CSRF token generated: d9e8759a198929b7fc53...
+2026-08-01 19:18:37 - INFO: === public_form.php started ===
+2026-08-01 19:18:37 - INFO: CSRF token generated: 6697b28ecc3cfaa7965f...
+2026-08-05 02:41:27 - INFO: === public_form.php started ===
+2026-08-06 11:52:24 - INFO: === public_form.php started ===
+2026-08-06 11:52:24 - INFO: CSRF token generated: df2defa8295d70848013...
+2026-08-06 12:14:43 - INFO: === public_form.php started ===
+2026-08-06 12:14:43 - INFO: CSRF token generated: 1eafc277edce67f460a9...
+2026-08-06 14:22:33 - INFO: === public_form.php started ===
+2026-08-06 14:22:33 - INFO: CSRF token generated: fa2b0ffad7cf068dfa00...
+2026-08-06 14:23:46 - INFO: === public_form.php started ===
+2026-08-06 14:23:46 - INFO: CSRF token generated: fa2b0ffad7cf068dfa00...
+2026-08-06 14:37:29 - INFO: === public_form.php started ===
+2026-08-06 14:37:29 - INFO: CSRF token generated: bbc23275a17dc56ada72...
+2026-08-06 14:37:48 - INFO: === public_form.php started ===
+2026-08-06 14:37:48 - INFO: CSRF token generated: bbc23275a17dc56ada72...
+2026-08-06 14:37:57 - INFO: === public_form.php started ===
+2026-08-06 14:37:57 - INFO: CSRF token generated: bbc23275a17dc56ada72...
+2026-08-06 14:38:01 - INFO: === public_form.php started ===
+2026-08-06 14:38:01 - INFO: CSRF token generated: bbc23275a17dc56ada72...
+2026-08-10 09:26:27 - INFO: === public_form.php started ===
+2026-08-10 09:26:27 - INFO: CSRF token generated: ac009798b62eaf09dec7...
+2026-08-10 09:26:35 - INFO: === public_form.php started ===
+2026-08-10 09:26:35 - INFO: CSRF token generated: 130c8ed62a0734e78ed8...
+2026-08-10 09:26:35 - INFO: === public_form.php started ===
+2026-08-10 09:26:35 - INFO: CSRF token generated: aa9a81affb1e90f82860...
+2026-08-10 09:26:36 - INFO: === public_form.php started ===
+2026-08-10 09:26:36 - INFO: CSRF token generated: ebeb0d1cd51e84158f82...
+2026-08-10 09:59:48 - INFO: === public_form.php started ===
+2026-08-10 09:59:48 - INFO: CSRF token generated: 679c4d65cc7ded38dc59...
+2026-08-10 10:00:28 - INFO: === public_form.php started ===
+2026-08-10 10:00:28 - INFO: CSRF token generated: 679c4d65cc7ded38dc59...
+2026-08-10 10:00:50 - INFO: === public_form.php started ===
+2026-08-10 10:00:50 - INFO: CSRF token generated: 679c4d65cc7ded38dc59...
+2026-08-13 17:23:49 - INFO: === public_form.php started ===
+2026-08-14 05:27:32 - INFO: === public_form.php started ===
+2026-08-14 05:27:32 - INFO: CSRF token generated: 5867aa91d7b2ce0e6763...
