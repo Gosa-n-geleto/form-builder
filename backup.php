@@ -1,6 +1,6 @@
 <?php
 /**
- * Developed by Muhafiz Ahmed
+ * Developed by Gosa Negeso
  */
 
 require_once 'config.php';
