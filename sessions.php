@@ -1,6 +1,6 @@
 <?php
 /**
- * Developed by Muhafiz Ahmed
+ * Developed by Gosa Negeso
  */
 
 require_once 'config.php';
@@ -201,7 +201,7 @@ if (isset($_GET['action'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="mobile-web-app-capable" content="yes">
-    <title>Session Management · Dashboard</title>
+    <title>Session Management 隆陇 Dashboard</title>
 
     <!-- CDN Dependencies -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -1054,9 +1054,9 @@ if (isset($_GET['action'])) {
             }
         });
 
-        console.log('🚀 Session Management page loaded successfully');
-        console.log('⌨️ Shortcut: Ctrl+R to refresh');
-        console.log('🔄 Auto-refresh every 30 seconds');
+        console.log('聲0聥4 Session Management page loaded successfully');
+        console.log('聛6毛4聞1聜5 Shortcut: Ctrl+R to refresh');
+        console.log('聰9茫4 Auto-refresh every 30 seconds');
     });
     </script>
 </body>
