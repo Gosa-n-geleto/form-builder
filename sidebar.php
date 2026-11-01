@@ -1,6 +1,6 @@
 <?php
 /**
- * Developed by Muhafiz Ahmed
+ * Developed by Gosa Negeso
  * WhatsApp: https://wa.me/953115473 (For Custom Projects)
  *
  * Shared Sidebar Component
