@@ -1,9 +1,6 @@
 <?php
 /**
- * Developed by Rameez Scripts
- * WhatsApp: https://wa.me/923224083545 (For Custom Projects)
- * YouTube: https://www.youtube.com/@rameezimdad (Subscribe for more!)
- *
+ * 
  * Google OAuth Callback Handler
  */
 
