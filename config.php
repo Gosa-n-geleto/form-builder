@@ -1,7 +1,7 @@
 <?php
 /**
  * Developed by Gosa Negeso
- * WhatsApp: https://wa.me/+251953115473 (For Custom Projects)
+ * WhatsApp: https://wa.me/+251916028154 (For Custom Projects)
  *
  * Database Configuration File
  */
