@@ -1,8 +1,8 @@
 <?php
 /**
- * Developed by Muhafiz Ahmed
- * WhatsApp: https://wa.me/+251953115473 (For Custom Projects)
- *
+Developed by Gosa Negeso
+
+  WhatsApp: https://wa.me/+251016028154(For Custom Projects)
  * Email OTP Verification Page
  */
 
