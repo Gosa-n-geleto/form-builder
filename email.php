@@ -1,6 +1,6 @@
 <?php
 /**
- * Developed by     Gosa Negeso
+ * Developed by Gosa Negeso
  * WhatsApp: https://wa.me/+251916028154 (For Custom Projects)
  */
 
